@@ -14,14 +14,14 @@
             </v-img>
           </v-col>
 
-          <v-col cols="12" md="6" class="text-center mt-9">
+          <v-col cols="12" md="6" class="text-center">
             <h2 class="text-h2">
               Make Your Cryto Art
             </h2>
             <p class="text-header mt-4">
               Choose your artist and have your own unique and exclusive work of
               art! Each artwork is minted as a non-fungible token (NFT) on
-              Ethereum's own blockchain.
+              Ethereum's blockchain.
             </p>
             <v-btn large color="primary" class="mt-4">
               <a class="white--text text-decoration-none" href="#artists"
@@ -348,9 +348,9 @@
     </v-sheet>
 
     <v-sheet id="nft">
-      <v-container class="my-9 py-9 py-lg-8">
+      <v-container>
         <v-row justify="center" class="my-9">
-          <v-col cols="12" md="3">
+          <v-col cols="12" md="4">
             <div>
               <h2 class="mb-3">Uniqueness certified by the blockchain</h2>
               <p>
@@ -367,27 +367,8 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="3">
+          <v-col cols="12" md="4">
             <v-img class="mx-auto" src="/images/project/nft-logo.png"></v-img>
-          </v-col>
-
-          <v-col cols="12" md="3">
-            <div>
-              <p>
-                In order to purchase a NFT you need to have an Ethereum wallet
-                address (see FAQ) where we will transfer the token.
-              </p>
-              <p>
-                After the transfer we will destroy our own copy of the artwork.
-                The high-resolution PNG file is made available as unlockable
-                content in the NFT.
-              </p>
-              <p>
-                NFT owners can trade with them on different marketplaces such as
-                Rarible or Opensea. A 2% royalty fee for secondary sales applies
-                automatically.
-              </p>
-            </div>
           </v-col>
         </v-row>
       </v-container>
@@ -418,13 +399,12 @@
     </v-sheet>
 
     <v-sheet>
-      <v-container class="my-9 py-9 py-lg-8">
+      <v-container>
         <v-row justify="center" class="my-9">
           <v-col cols="12" md="8">
             <div>
               <h4 class="text-h4">
-                Meet one of our artists today and start and collect and sell
-                your works today!
+                Hire an AlgoPainter rigth now and start to collect unique digital paintings!
               </h4>
             </div>
           </v-col>
