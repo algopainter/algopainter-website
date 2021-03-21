@@ -47,8 +47,8 @@
 
     <v-sheet>
       <v-container>
-        <v-row justify="center" class="mb-6 pb-6">
-          <v-col cols="12" md="4">
+        <v-row justify="center" class="mb-3">
+          <v-col cols="12" md="3">
             <v-img
               class="mx-auto"
               src="/images/project/unique-art.svg"
@@ -61,7 +61,7 @@
             ></v-divider>
             <div class="text-center">
               <h2 class="my-3">Unique Art</h2>
-              <p class="text-left">
+              <p>
                 Have a unique art in a totally safe way, painted by a virtual
                 artist exclusively for you.<br />
                 Be unique!
@@ -69,7 +69,7 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="4">
+          <v-col cols="12" md="3">
             <v-img
               class="mx-auto"
               src="/images/project/limited.svg"
@@ -82,7 +82,7 @@
             ></v-divider>
             <div class="text-center">
               <h2 class="my-3">Limited</h2>
-              <p class="text-left">
+              <p>
                 Only 1000 thousand combinations of arts by style will be made
                 available, a limited number of works. <br />
                 Like Van Ghog's works.
@@ -90,7 +90,7 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="4">
+          <v-col cols="12" md="3">
             <v-img
               class="mx-auto"
               src="/images/project/blockchain.svg"
@@ -103,7 +103,7 @@
             ></v-divider>
             <div class="text-center">
               <h2 class="my-3">Blockchain</h2>
-              <p class="text-left">
+              <p>
                 In order to certify its uniqueness we tokenize the artwork as a
                 NFT on Ethereum's own blockchain.
               </p>
@@ -135,6 +135,9 @@
             </div>
             <div class="text-center">
               <h5 class="text-h5 my-3">Hashly Gwei</h5>
+              <v-btn @click="goNewPainting()" color="primary">
+                Make Your Art
+              </v-btn>
             </div>
           </v-col>
 
@@ -172,16 +175,16 @@
     <v-sheet color="transparent">
       <v-container>
         <v-row justify="center" class="my-3">
-          <v-col cols="12" md="6">
+          <v-col cols="12" md="6" sm="12">
             <div class="text-center">
               <img
                 class="mx-auto"
                 src="/images/project/hashly-gwei-example.png"
-                height="509"
+                width="100%"
               />
             </div>
           </v-col>
-          <v-col cols="12" md="4">
+          <v-col cols="12" md="4" sm="12">
             <div>
               <h6 class="text-h6 my-3 font-weight-black primary--text">
                 Hashly Gwei
@@ -198,7 +201,12 @@
                 the style you choose. Infinite possibilities to create, register
                 and sell your works.
               </p>
-              <v-btn @click="goToBlog" large color="primary" class="mt-4">
+              <v-btn
+                @click="goNewPainting()"
+                large
+                color="primary"
+                class="mt-4"
+              >
                 Make Your Art
               </v-btn>
             </div>
@@ -210,7 +218,7 @@
     <v-sheet color="transparent">
       <v-container>
         <v-row justify="center" class="my-3">
-          <v-col cols="12" md="4">
+          <v-col cols="12" md="4" sm="12">
             <div>
               <h6 class="text-h6 my-3 font-weight-black primary--text">
                 Claude Monero
@@ -227,17 +235,17 @@
                 the characteristics of the images sent. Endless possibilities to
                 create, register and sell your works.
               </p>
-              <v-btn @click="goToBlog" large color="primary" class="mt-4">
+              <v-btn large color="primary" class="mt-4">
                 Coming Soon
               </v-btn>
             </div>
           </v-col>
-          <v-col cols="12" md="6">
+          <v-col cols="12" md="6" sm="12">
             <div class="text-center">
               <img
                 class="mx-auto"
                 src="/images/project/claude-monero-example.png"
-                height="509"
+                width="100%"
               />
             </div>
           </v-col>
@@ -248,16 +256,16 @@
     <v-sheet color="transparent">
       <v-container>
         <v-row justify="center" class="my-3">
-          <v-col cols="12" md="6">
+          <v-col cols="12" md="6" sm="12">
             <div class="text-center">
               <img
                 class="mx-auto"
                 src="/images/project/angelo-fracthereum-example.png"
-                height="509"
+                width="100%"
               />
             </div>
           </v-col>
-          <v-col cols="12" md="4">
+          <v-col cols="12" md="4" sm="12">
             <div>
               <h6 class="text-h6 my-3 font-weight-black primary--text">
                 Angelo Fracthereum
@@ -277,7 +285,7 @@
                 intersection of generative art and computer art. They combine to
                 produce a type of abstract art.
               </p>
-              <v-btn @click="goToBlog" large color="primary" class="mt-4">
+              <v-btn large color="primary" class="mt-4">
                 Coming Soon
               </v-btn>
             </div>
@@ -330,6 +338,12 @@
             <painting-card :key="painting.tokenId" :painting="painting" />
           </v-col>
         </v-row>
+
+        <div class="text-center">
+          <v-btn @click="goToApp()" large width="300" class="mt-9" color="primary">
+            View all
+          </v-btn>
+        </div>
       </v-container>
     </v-sheet>
 
@@ -416,8 +430,8 @@
           </v-col>
 
           <v-col cols="12" md="4">
-            <v-btn @click="goToBlog" x-large block height="76" color="primary">
-              Sign up Now
+            <v-btn @click="goToApp()" x-large block height="76" color="primary">
+              Go to App
             </v-btn>
           </v-col>
         </v-row>
@@ -482,6 +496,7 @@ export default {
 
       paintings: false,
       urlGallery: process.env.VUE_APP_URL_GALLERY,
+      urlAPP: process.env.VUE_APP_LINK_APP,
     };
   },
 
@@ -490,9 +505,15 @@ export default {
   },
 
   methods: {
-    goToBlog() {
-      window.location = "https://blog.votility.io";
+    goNewPainting() {
+      console.log("goNewPainting");
+      return (window.location = `${this.urlAPP}/paintings/new`);
     },
+
+    goToApp() {
+      return (window.location = `${this.urlAPP}`);
+    },
+
     async getPaintings() {
       const getPaintings = await fetch(this.urlGallery);
       const paintings = await getPaintings.json();

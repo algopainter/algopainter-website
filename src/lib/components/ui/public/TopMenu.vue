@@ -80,12 +80,13 @@ export default {
           id: "/#faq",
         },
       ],
+      urlAPP: process.env.VUE_APP_LINK_APP,
     };
   },
 
   methods: {
     goToApp() {
-      return (window.location = `${this.process.env.VUE_APP_LINK_APP}/paintings/new`);
+      return (window.location = `${this.urlAPP}`);
     },
   },
 };
