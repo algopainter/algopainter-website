@@ -76,11 +76,11 @@ export default {
     },
 
     goToTwitter() {
-      window.location = "https://twitter.com/votilityp";
+      window.location = "https://twitter.com/@algopainter";
     },
 
     goToGithub() {
-      window.location = "https://github.com/votility";
+      window.location = "https://github.com/algopainter";
     },
   },
 };
