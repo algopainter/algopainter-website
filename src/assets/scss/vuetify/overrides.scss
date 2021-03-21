@@ -23,10 +23,10 @@
 
 @media (min-width: 1904px) {
   .container {
-    max-width: 1440px;
+    max-width: 1440px !important;
   }
   .container--fluid {
-    max-width: 100%;
+    max-width: 100% !important;
   }
 }
 
