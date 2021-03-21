@@ -428,49 +428,42 @@ export default {
 
   data() {
     return {
-      features: [
-        {
-          icon: "mdi-star-circle-outline",
-          title: "Save time and money",
-          description:
-            "Let Votility be your governance module. You will save development (smart contract, front-end and back-end) and audit hours and the amount of gas used to deploy your contract.",
-        },
-        {
-          icon: "mdi-link-variant",
-          title: "Off-chain and On-chain",
-          description:
-            "You can combine all benefits using both strategies. Proposals are running on-chain to endorse your ideals and the voting off-chain to get community engagement.",
-        },
-        {
-          icon: "mdi-cog-transfer-outline",
-          title: "One simple hook function",
-          description:
-            "All you need to do is, when necessary, write a receiver contract waiting for the proposal result, and done! Just one simple hook function.",
-        },
-        {
-          icon: "mdi-gavel",
-          title: "Utility Token or Governance Token?",
-          description:
-            "Don't worry about that. Create your Utility Token, develop your project, and whenever you need, transform your token into voting power!",
-        },
-      ],
-
       pannel: [0],
       faq: [
         {
-          question: "What is Lorem Ipsum?",
+          question: "What is AlgoPainter?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "AlgoPainter is a tool for generating unique and limited paintings using one of ours digital painters. When you request a piece of art to an AlgoPainter, you need to specify how this work will be done using a set of parameters to create a unique painting.",
         },
         {
-          question: "What is Lorem Ipsum?",
+          question: "How rare is a painting?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Each AlgoPainter can be hired only 1000 times, and for each art, they will be incentive to charge more to get the work done. As a fresh start, they will ask you a small amount of ETH to cover expenses with digital ink and other digital resources. Still, with the works' advancement, they will feel valued and charge fair values for the splendid artistic works they will produce!",
         },
         {
-          question: "What is Lorem Ipsum?",
+          question: "Are there rare items added to the paintings?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Yes! When the an AlgoPainter gets retired, after delivering 1000 beautiful works, he will randomly gift 10% of his clients with new frames to decorate the piece of art, 1% will receiver a golden frame, and 9% will receive a silver frame. And only in the NFThack 2021 all the paintings will receive a unique signature!",
+        },
+        {
+          question: "How much is a piece of art?",
+          answer:
+            "For the first job, the digital artist will charge you 0.01 ETH, and for each work it will increase 0.01 ETH. The last work, before he gets retired, will be sold for 10 ETH!. Hurry up and hire your artist!",
+        },
+        {
+          question: "Can I sell my piece of art?",
+          answer:
+            "Yes! We will soon provide an internal marketplace, but you can use any other platform. Feel free to sell or keep your painting!",
+        },
+        {
+          question: "Where are the high-resolution files?",
+          answer:
+            "After generating the 1000 jobs, we will get all the paintings and render the high-resolution files, just the owner will be able to download the files!",
+        },
+        {
+          question: "How Hashly Gwei works?",
+          answer:
+            "It is tough to explain how an artist works, but in a simple way she is inspired by some works and feelings, extracts geometric blocks, and assembles a unique work. As she is very organized, you can specify several parameters for her to create a special work for you. You can talk about what inspiration you want her to follow, what way to work with colors, and whether you want more psychedelic and digital work or art to hang on the wall. You are in charge!",
         },
       ],
 
