@@ -88,6 +88,6 @@ export default {
 
 <style scoped>
 .footer {
-  background-color: #000000;
+  background-color: #000000 !important;
 }
 </style>
