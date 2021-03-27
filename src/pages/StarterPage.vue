@@ -47,7 +47,7 @@
 
     <v-sheet>
       <v-container>
-        <v-row justify="center" class="mb-3">
+        <v-row justify="space-between" class="mb-3">
           <v-col cols="12" md="3">
             <v-img
               class="mx-auto"
@@ -174,19 +174,13 @@
 
     <v-sheet color="transparent">
       <v-container>
-        <v-row justify="center" class="my-3">
+        <v-row justify="space-between" class="my-3">
           <v-col cols="12" md="6" sm="12">
-            <div class="text-center">
-              <img
-                class="mx-auto"
-                src="/images/project/hashly-gwei-example.png"
-                width="100%"
-              />
-            </div>
+            <img src="/images/project/hashly-gwei-example.png" width="100%" />
           </v-col>
-          <v-col cols="12" md="4" sm="12">
+          <v-col align-self="center" class="pa-9" cols="12" md="6" sm="12">
             <div>
-              <h6 class="text-h6 my-3 font-weight-black primary--text">
+              <h6 class="text-body-1 my-3 font-weight-black primary--text">
                 Hashly Gwei
               </h6>
               <h4 class="text-h4 my-3 font-weight-black">
@@ -217,10 +211,10 @@
 
     <v-sheet color="transparent">
       <v-container>
-        <v-row justify="center" class="my-3">
-          <v-col cols="12" md="4" sm="12">
+        <v-row justify="space-between" class="my-3">
+          <v-col align-self="start" cols="12" md="3" sm="12">
             <div>
-              <h6 class="text-h6 my-3 font-weight-black primary--text">
+              <h6 class="text-body-1 my-3 font-weight-black primary--text">
                 Claude Monero
               </h6>
               <h4 class="text-h4 my-3 font-weight-black">
@@ -240,7 +234,7 @@
               </v-btn>
             </div>
           </v-col>
-          <v-col cols="12" md="6" sm="12">
+          <v-col align-self="center" cols="12" md="3" sm="12">
             <div class="text-center">
               <img
                 class="mx-auto"
@@ -249,25 +243,9 @@
               />
             </div>
           </v-col>
-        </v-row>
-      </v-container>
-    </v-sheet>
-
-    <v-sheet color="transparent">
-      <v-container>
-        <v-row justify="center" class="my-3">
-          <v-col cols="12" md="6" sm="12">
-            <div class="text-center">
-              <img
-                class="mx-auto"
-                src="/images/project/angelo-fracthereum-example.png"
-                width="100%"
-              />
-            </div>
-          </v-col>
-          <v-col cols="12" md="4" sm="12">
+          <v-col align-self="start" cols="12" md="3" sm="12">
             <div>
-              <h6 class="text-h6 my-3 font-weight-black primary--text">
+              <h6 class="text-body-1 my-3 font-weight-black primary--text">
                 Angelo Fracthereum
               </h6>
               <h4 class="text-h4 my-3 font-weight-black">
@@ -289,6 +267,207 @@
                 Coming Soon
               </v-btn>
             </div>
+          </v-col>
+          <v-col align-self="center" cols="12" md="3" sm="12">
+            <div class="text-center">
+              <img
+                class="mx-auto"
+                src="/images/project/angelo-fracthereum-example.png"
+                width="100%"
+              />
+            </div>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
+
+    <v-sheet id="bidback">
+      <v-container>
+        <v-row>
+          <v-col cols="12">
+            <h2 class="text-h2 pb-3">
+              BidBack System
+            </h2>
+            <p class="text-body-1">
+              Participate in the Auctions and receive a percentage of the sale
+              back.
+            </p>
+            <p class="mt-n2">
+              When you send a artwork to an auction you can set a percentage for
+              those who participate in the action. It will incentivize all the
+              users to send bids.
+            </p>
+          </v-col>
+        </v-row>
+
+        <v-row justify="space-between" class="mb-3">
+          <v-col cols="12" md="3">
+            <v-img
+              class="mx-auto"
+              src="/images/project/make-bid.svg"
+              width="142"
+            ></v-img>
+            <v-divider
+              width="50"
+              dark
+              class="mx-auto my-3 black--border"
+            ></v-divider>
+            <div class="text-center">
+              <h2 class="my-3">Make a bid</h2>
+              <p>
+                Participate in the auction by making a minimum bid.
+              </p>
+            </div>
+          </v-col>
+
+          <v-col cols="12" md="3">
+            <v-img
+              class="mx-auto"
+              src="/images/project/auction.svg"
+              width="142"
+            ></v-img>
+            <v-divider
+              width="50"
+              dark
+              class="mx-auto my-3 black--border"
+            ></v-divider>
+            <div class="text-center">
+              <h2 class="my-3">Wait for the auction</h2>
+              <p>
+                Wait for the auction to to be finished.
+              </p>
+            </div>
+          </v-col>
+
+          <v-col cols="12" md="3">
+            <v-img
+              class="mx-auto"
+              src="/images/project/get-back.svg"
+              width="142"
+            ></v-img>
+            <v-divider
+              width="50"
+              dark
+              class="mx-auto my-3 black--border"
+            ></v-divider>
+            <div class="text-center">
+              <h2 class="my-3">Get back</h2>
+              <p>
+                Auction participants receive a percentage of the sale, based on
+                the amount of $ALGOP in their wallets.
+              </p>
+            </div>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
+
+    <v-sheet id="PIRS">
+      <v-container>
+        <v-row>
+          <v-col cols="12">
+            <h2 class="text-h2 pb-3">
+              Perpetual Inclusive Royalty System - PIRS
+            </h2>
+          </v-col>
+        </v-row>
+
+        <v-row justify="space-between" class="mb-3">
+          <v-col cols="12" md="2">
+            <v-img
+              class="mx-auto"
+              src="/images/project/creators-royalties.svg"
+              width="180"
+            ></v-img>
+          </v-col>
+
+          <v-col cols="12" md="4">
+            <div>
+              <h2 class="my-3">Creators Royalties</h2>
+              <p>
+                Artist who sent the work or user who hired an AlgoPainter to
+                generate the work.
+              </p>
+            </div>
+          </v-col>
+
+          <v-col cols="12" md="2">
+            <v-img
+              class="mx-auto"
+              src="/images/project/investors-royalties.svg"
+              width="180"
+            ></v-img>
+          </v-col>
+
+          <v-col cols="12" md="4">
+            <div>
+              <h2 class="my-3">Investors Royalties</h2>
+              <p>
+                The list of owners of the artwork (users who bought the item
+                over time)
+              </p>
+            </div>
+          </v-col>
+        </v-row>
+
+        <v-row class="simulation">
+          <v-col align-self="center" cols="12" md="6" sm="12">
+            <h4 class="text-h4 pa-3">
+              Simulation
+            </h4>
+            <p class="pa-4 text-body-1 text-justify">
+              An artwork that was sold for <b>1,000,000 USD</b> and has a
+              configuration of <b>10% of Creator Royalties</b> and
+              <b>10% of Investors Royalties:</b>
+            </p>
+          </v-col>
+
+          <v-col align-self="center" cols="12" md="6" sm="12">
+            <img
+              src="/images/project/bracket.svg"
+              width="61px"
+              class="mr-2 float-left"
+            />
+            <div class="ml-9">
+              <p class="text-body-1">
+                The Seller will receive:
+                <b class="primary--text">800,000 USD</b>
+              </p>
+              <p class="text-body-1">
+                The Creator will receive:
+                <b class="primary--text">100,000 USD</b>
+              </p>
+              <p class="text-body-1 mt-6 text-justify">
+                Investors will receive the distribution of
+                <b class="primary--text">100,000 USD</b> in proportion to the
+                <b class="primary--text">$ALGOP Tokens</b> they have in their
+                wallets at the time of sale.
+              </p>
+            </div>
+          </v-col>
+
+          <v-col align-self="center" cols="12" md="12" sm="12">
+            <p class="text-body-1 mb-n1">
+              The perpetual inclusive royalty system will bring attention to
+              your work because all the owners will always receive a royalty
+              incentivate them to buy and sell.
+            </p>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
+
+    <v-sheet id="buy-sell">
+      <v-container>
+        <v-row>
+          <v-col cols="12">
+            <h2 class="text-h2 pb-3 mt-2">
+              The perfect platform for creators, buyers and sellers
+            </h2>
+            <p class="text-body-1">
+              With the BidBack System and PIRS all the participants receive the
+              incentive the big active on the platform.
+            </p>
           </v-col>
         </v-row>
       </v-container>
@@ -340,7 +519,13 @@
         </v-row>
 
         <div class="text-center">
-          <v-btn @click="goToApp()" large width="300" class="mt-9" color="primary">
+          <v-btn
+            @click="goToApp()"
+            large
+            width="300"
+            class="mt-9"
+            color="primary"
+          >
             View all
           </v-btn>
         </div>
@@ -390,7 +575,7 @@
             <v-expansion-panel-header class="text-h5">
               {{ item.question }}
             </v-expansion-panel-header>
-            <v-expansion-panel-content class="text-h6 secondary--text">
+            <v-expansion-panel-content class="text-body-1 secondary--text">
               {{ item.answer }}
             </v-expansion-panel-content>
           </v-expansion-panel>
@@ -404,7 +589,8 @@
           <v-col cols="12" md="8">
             <div>
               <h4 class="text-h4">
-                Hire an AlgoPainter rigth now and start to collect unique digital paintings!
+                Hire an AlgoPainter rigth now and start to collect unique
+                digital paintings!
               </h4>
             </div>
           </v-col>
@@ -528,5 +714,9 @@ export default {
   line-height: 48px;
   text-align: center;
   color: #000000;
+}
+.simulation {
+  border: 2px dashed #f4538d;
+  border-radius: 9px;
 }
 </style>

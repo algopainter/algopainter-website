@@ -2,6 +2,11 @@
  * Vuetify Styles Overrides
  */
 
+ .v-application .text-body-1 {
+  font-size: 1.3rem !important;
+  line-height: 33px !important;
+}
+
  .v-application .text-h2 {
   font-weight: 700 !important;
   line-height: 72px !important;
