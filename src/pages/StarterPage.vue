@@ -257,12 +257,6 @@
                 still images, animations, and media. Fractal art developed from
                 the mid-1980s onwards.
               </p>
-              <p>
-                It is a genre of computer art and digital art which are part of
-                new media art. The mathematical beauty of fractals lies at the
-                intersection of generative art and computer art. They combine to
-                produce a type of abstract art.
-              </p>
               <v-btn large color="primary" class="mt-4">
                 Coming Soon
               </v-btn>
