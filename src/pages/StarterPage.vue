@@ -45,9 +45,9 @@
       <div class="degrade"></div>
     </v-sheet>
 
-    <v-sheet>
+    <v-sheet id="UniqueArt" color="transparent">
       <v-container>
-        <v-row justify="space-between" class="mb-3">
+        <v-row justify="space-between">
           <v-col cols="12" md="3">
             <v-img
               class="mx-auto"
@@ -115,16 +115,20 @@
 
     <v-sheet id="artists">
       <v-container>
-        <h2 class="text-h2 text-center pb-9">
-          Select Your Artist
-          <v-divider
-            width="255px"
-            dark
-            class="mx-auto my-3 black--border"
-          ></v-divider>
-        </h2>
+        <v-row>
+          <v-col cols="12">
+            <h2 class="text-h5 text-md-h2 text-center">
+              Select Your Artist
+              <v-divider
+                width="255px"
+                dark
+                class="mx-auto my-md-2 black--border"
+              ></v-divider>
+            </h2>
+          </v-col>
+        </v-row>
 
-        <v-row justify="center" class="my-3">
+        <v-row justify="center">
           <v-col cols="12" md="3">
             <div class="text-center">
               <img
@@ -172,13 +176,22 @@
       </v-container>
     </v-sheet>
 
-    <v-sheet color="transparent">
-      <v-container>
-        <v-row justify="space-between" class="my-3">
-          <v-col cols="12" md="6" sm="12">
-            <img src="/images/project/hashly-gwei-example.png" width="100%" />
+    <v-sheet id="about-gwei" color="transparent">
+      <v-container class="mt-lg-6">
+        <v-row justify="space-between">
+          <v-col
+            align-self="center"
+            cols="12"
+            md="6"
+            sm="12"
+            class="d-none d-md-block"
+          >
+            <v-img
+              src="/images/project/hashly-gwei-example.png"
+              width="90%"
+            ></v-img>
           </v-col>
-          <v-col align-self="center" class="pa-9" cols="12" md="6" sm="12">
+          <v-col align-self="center" class="pa-md-9" cols="12" md="6" sm="12">
             <div>
               <h6 class="text-body-1 my-3 font-weight-black primary--text">
                 Hashly Gwei
@@ -195,6 +208,13 @@
                 the style you choose. Infinite possibilities to create, register
                 and sell your works.
               </p>
+
+              <v-img
+                class="d-flex d-md-none"
+                src="/images/project/hashly-gwei-example.png"
+                width="90%"
+              ></v-img>
+
               <v-btn
                 @click="goNewPainting()"
                 large
@@ -209,12 +229,12 @@
       </v-container>
     </v-sheet>
 
-    <v-sheet color="transparent">
+    <v-sheet id="about-claude-and-fracthereum" color="transparent">
       <v-container>
-        <v-row justify="space-between" class="my-3">
+        <v-row justify="space-between">
           <v-col align-self="start" cols="12" md="3" sm="12">
             <div>
-              <h6 class="text-body-1 my-3 font-weight-black primary--text">
+              <h6 class="text-body-1 my-md-3 font-weight-black primary--text">
                 Claude Monero
               </h6>
               <h4 class="text-h4 my-3 font-weight-black">
@@ -229,12 +249,25 @@
                 the characteristics of the images sent. Endless possibilities to
                 create, register and sell your works.
               </p>
+
+              <img
+                class="mx-auto d-flex d-md-none"
+                src="/images/project/claude-monero-example.png"
+                width="100%"
+              />
+
               <v-btn large color="primary" class="mt-4">
                 Coming Soon
               </v-btn>
             </div>
           </v-col>
-          <v-col align-self="center" cols="12" md="3" sm="12">
+          <v-col
+            align-self="center"
+            cols="12"
+            md="3"
+            sm="12"
+            class="d-none d-md-block"
+          >
             <div class="text-center">
               <img
                 class="mx-auto"
@@ -245,7 +278,7 @@
           </v-col>
           <v-col align-self="start" cols="12" md="3" sm="12">
             <div>
-              <h6 class="text-body-1 my-3 font-weight-black primary--text">
+              <h6 class="text-body-1 my-md-3 font-weight-black primary--text">
                 Angelo Fracthereum
               </h6>
               <h4 class="text-h4 my-3 font-weight-black">
@@ -257,18 +290,25 @@
                 still images, animations, and media. Fractal art developed from
                 the mid-1980s onwards.
               </p>
-              <p>
-                It is a genre of computer art and digital art which are part of
-                new media art. The mathematical beauty of fractals lies at the
-                intersection of generative art and computer art. They combine to
-                produce a type of abstract art.
-              </p>
+
+              <img
+                class="mx-auto d-flex d-md-none"
+                src="/images/project/angelo-fracthereum-example.png"
+                width="100%"
+              />
+
               <v-btn large color="primary" class="mt-4">
                 Coming Soon
               </v-btn>
             </div>
           </v-col>
-          <v-col align-self="center" cols="12" md="3" sm="12">
+          <v-col
+            align-self="center"
+            cols="12"
+            md="3"
+            sm="12"
+            class="d-none d-md-block"
+          >
             <div class="text-center">
               <img
                 class="mx-auto"
@@ -285,10 +325,10 @@
       <v-container>
         <v-row>
           <v-col cols="12">
-            <h2 class="text-h2 pb-3">
+            <h2 class="text-h5 text-md-h2">
               BidBack System
             </h2>
-            <p class="text-body-1">
+            <p class="text-body-1 mt-0 mt-md-3">
               Participate in the Auctions and receive a percentage of the sale
               back.
             </p>
@@ -300,8 +340,8 @@
           </v-col>
         </v-row>
 
-        <v-row justify="space-between" class="mb-3">
-          <v-col cols="12" md="3">
+        <v-row justify="space-between" class="mt-n3 mt-sm-0">
+          <v-col cols="12" md="3" class="mt-n3 mt-md-0">
             <v-img
               class="mx-auto"
               src="/images/project/make-bid.svg"
@@ -320,7 +360,7 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="3">
+          <v-col cols="12" md="3" class="mt-n3 mt-md-0">
             <v-img
               class="mx-auto"
               src="/images/project/auction.svg"
@@ -339,7 +379,7 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="3">
+          <v-col cols="12" md="3" class="mt-n3 mt-md-0">
             <v-img
               class="mx-auto"
               src="/images/project/get-back.svg"
@@ -366,24 +406,24 @@
       <v-container>
         <v-row>
           <v-col cols="12">
-            <h2 class="text-h2 pb-3">
+            <h2 class="text-h5 text-md-h2">
               Perpetual Inclusive Royalty System - PIRS
             </h2>
           </v-col>
         </v-row>
 
-        <v-row justify="space-between" class="mb-3">
-          <v-col cols="12" md="2">
+        <v-row justify="space-between">
+          <v-col cols="12" sm="2">
             <v-img
-              class="mx-auto"
+              class="mx-auto my-n9 my-md-0"
               src="/images/project/creators-royalties.svg"
               width="180"
             ></v-img>
           </v-col>
 
-          <v-col cols="12" md="4">
+          <v-col cols="12" sm="4">
             <div>
-              <h2 class="my-3">Creators Royalties</h2>
+              <h2 class="my-3 text-center text-md-left">Creators Royalties</h2>
               <p>
                 Artist who sent the work or user who hired an AlgoPainter to
                 generate the work.
@@ -391,17 +431,17 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="2">
+          <v-col cols="12" sm="2">
             <v-img
-              class="mx-auto"
+              class="mx-auto my-n6 my-md-0"
               src="/images/project/investors-royalties.svg"
               width="180"
             ></v-img>
           </v-col>
 
-          <v-col cols="12" md="4">
+          <v-col cols="12" sm="4">
             <div>
-              <h2 class="my-3">Investors Royalties</h2>
+              <h2 class="my-3 text-center text-md-left">Investors Royalties</h2>
               <p>
                 The list of owners of the artwork (users who bought the item
                 over time)
@@ -415,20 +455,26 @@
             <h4 class="text-h4 pa-3">
               Simulation
             </h4>
-            <p class="pa-4 text-body-1 text-justify">
+            <p class="pa-md-4 text-body-1 text-justify">
               An artwork that was sold for <b>1,000,000 USD</b> and has a
               configuration of <b>10% of Creator Royalties</b> and
               <b>10% of Investors Royalties:</b>
             </p>
           </v-col>
 
-          <v-col align-self="center" cols="12" md="6" sm="12">
+          <v-col
+            align-self="center"
+            class="d-flex align-center"
+            cols="12"
+            md="6"
+            sm="12"
+          >
             <img
               src="/images/project/bracket.svg"
               width="61px"
-              class="mr-2 float-left"
+              class="float-left mr-3 d-none d-sm-flex"
             />
-            <div class="ml-9">
+            <div class="mt-n6 mt-md-0">
               <p class="text-body-1">
                 The Seller will receive:
                 <b class="primary--text">800,000 USD</b>
@@ -437,7 +483,7 @@
                 The Creator will receive:
                 <b class="primary--text">100,000 USD</b>
               </p>
-              <p class="text-body-1 mt-6 text-justify">
+              <p class="text-body-1 mt-md-6 text-justify">
                 Investors will receive the distribution of
                 <b class="primary--text">100,000 USD</b> in proportion to the
                 <b class="primary--text">$ALGOP Tokens</b> they have in their
@@ -447,7 +493,7 @@
           </v-col>
 
           <v-col align-self="center" cols="12" md="12" sm="12">
-            <p class="text-body-1 mb-n1">
+            <p class="text-body-1 mt-n6 mt-md-0 mb-n1">
               The perpetual inclusive royalty system will bring attention to
               your work because all the owners will always receive a royalty
               incentivate them to buy and sell.
@@ -461,10 +507,10 @@
       <v-container>
         <v-row>
           <v-col cols="12">
-            <h2 class="text-h2 pb-3 mt-2">
+            <h2 class="text-h5 text-md-h2">
               The perfect platform for creators, buyers and sellers
             </h2>
-            <p class="text-body-1">
+            <p class="text-body-1 mt-0 mt-md-3">
               With the BidBack System and PIRS all the participants receive the
               incentive the big active on the platform.
             </p>
@@ -475,12 +521,12 @@
 
     <v-sheet id="gallery">
       <v-container>
-        <h2 class="text-h2 mt-6 text-center pb-9">
+        <h2 class="text-h2 text-center pb-9">
           Gallery
           <v-divider
             width="80px"
             dark
-            class="mx-auto my-3 black--border"
+            class="mx-auto black--border"
           ></v-divider>
         </h2>
 
@@ -534,10 +580,12 @@
 
     <v-sheet id="nft">
       <v-container>
-        <v-row justify="center" class="my-9">
-          <v-col cols="12" md="4">
+        <v-row justify="space-between">
+          <v-col align-self="center" cols="12" md="6">
             <div>
-              <h2 class="mb-3">Uniqueness certified by the blockchain</h2>
+              <h3 class="text-h5 text-md-h3 mb-md-3">
+                Uniqueness certified by the blockchain
+              </h3>
               <p>
                 Uniqueness certified by the blockchain Each artwork is
                 one-of-a-kind, which means that no other copies will ever be
@@ -552,7 +600,7 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="4">
+          <v-col align-self="center" cols="12" md="4">
             <v-img class="mx-auto" src="/images/project/nft-logo.png"></v-img>
           </v-col>
         </v-row>
@@ -560,35 +608,39 @@
     </v-sheet>
 
     <v-sheet id="faq" color="transparent">
-      <v-container class="mt-n9">
-        <div class="text-center">
-          <div
-            class="text-uppercase font-weight-bold body-2 primary--text mb-2"
-          >
-            Support
-          </div>
-          <h2 class="text-h3 text-lg-h2">Frequently Asked Questions</h2>
-        </div>
+      <v-container>
+        <v-row>
+          <v-col cols="12">
+            <div class="text-center">
+              <div
+                class="text-uppercase font-weight-bold body-2 primary--text mb-2"
+              >
+                Support
+              </div>
+              <h3 class="text-h5 text-md-h3">Frequently Asked Questions</h3>
+            </div>
 
-        <v-expansion-panels multiple class="mt-8">
-          <v-expansion-panel v-for="(item, i) in faq" :key="i">
-            <v-expansion-panel-header class="text-h5">
-              {{ item.question }}
-            </v-expansion-panel-header>
-            <v-expansion-panel-content class="text-body-1 secondary--text">
-              {{ item.answer }}
-            </v-expansion-panel-content>
-          </v-expansion-panel>
-        </v-expansion-panels>
+            <v-expansion-panels multiple class="mt-3 mt-md-8">
+              <v-expansion-panel v-for="(item, i) in faq" :key="i">
+                <v-expansion-panel-header class="text-h5">
+                  {{ item.question }}
+                </v-expansion-panel-header>
+                <v-expansion-panel-content class="text-body-1 secondary--text">
+                  {{ item.answer }}
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+            </v-expansion-panels>
+          </v-col>
+        </v-row>
       </v-container>
     </v-sheet>
 
     <v-sheet>
       <v-container>
-        <v-row justify="center" class="my-9">
+        <v-row justify="center" class="my-3">
           <v-col cols="12" md="8">
             <div>
-              <h4 class="text-h4">
+              <h4 class="text-h5 text-md-h4">
                 Hire an AlgoPainter rigth now and start to collect unique
                 digital paintings!
               </h4>
@@ -686,12 +738,12 @@ export default {
 .header {
   background-image: url("../../public/images/project/background-header.png");
   background-size: cover;
-  padding: 150px 0px 0px 0px;
+  padding: 120px 0px 0px 0px;
 }
 .degrade {
   width: 100%;
-  height: 300px;
-  margin-bottom: -150px;
+  height: 100px;
+  margin-bottom: -60px;
   background: linear-gradient(
     to bottom,
     rgba(255, 0, 0, 0) 0%,
@@ -718,5 +770,17 @@ export default {
 .simulation {
   border: 2px dashed #f4538d;
   border-radius: 9px;
+  margin: 3px !important;
+}
+
+/* mobile */
+@media screen and (max-width: 959px) {
+  .header {
+    padding: 90px 0px 0px 0px;
+  }
+  .degrade {
+    height: 100px;
+    margin-bottom: -50px;
+  }
 }
 </style>
