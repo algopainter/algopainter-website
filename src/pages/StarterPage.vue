@@ -83,8 +83,8 @@
             <div class="text-center">
               <h2 class="my-3">Limited</h2>
               <p>
-                Only 1000 thousand combinations of arts by style will be made
-                available, a limited number of works. <br />
+                A limited combinations of arts by each digital painter will be made
+                available. <br />
                 Like Van Ghog's works.
               </p>
             </div>
@@ -105,7 +105,7 @@
               <h2 class="my-3">Blockchain</h2>
               <p>
                 In order to certify its uniqueness we tokenize the artwork as a
-                NFT on Ethereum's own blockchain.
+                NFT on the blockchain.
               </p>
             </div>
           </v-col>
@@ -201,7 +201,7 @@
               </h4>
               <p>
                 Choose a unique and revolutionary style so that our artist can
-                immortalize you in your collection.
+                immortalize you in our gallery.
               </p>
               <p>
                 Our artist exclusively creates a totally unique work of art with
@@ -238,7 +238,7 @@
                 Claude Monero
               </h6>
               <h4 class="text-h4 my-3 font-weight-black">
-                Choice 2 Pictures
+                Choose 2 Pictures
               </h4>
               <p style="min-height: 192px">
                 Choose two images of your choice and create a new unique and
@@ -420,7 +420,7 @@
             <div>
               <h2 class="my-3 text-center text-md-left">Creators Royalties</h2>
               <p>
-                Artist who sent the work or user who hired an AlgoPainter to
+                The artist who sent the work or the user who hired an AlgoPainter to
                 generate the work.
               </p>
             </div>
@@ -439,7 +439,7 @@
               <h2 class="my-3 text-center text-md-left">Investors Royalties</h2>
               <p>
                 The list of owners of the artwork (users who bought the item
-                over time)
+                over time).
               </p>
             </div>
           </v-col>
@@ -471,11 +471,11 @@
             />
             <div class="mt-n6 mt-md-0">
               <p class="text-body-1">
-                The Seller will receive:
+                The seller will receive:
                 <b class="primary--text">800,000 USD</b>
               </p>
               <p class="text-body-1">
-                The Creator will receive:
+                The creator will receive:
                 <b class="primary--text">100,000 USD</b>
               </p>
               <p class="text-body-1 mt-md-6 text-justify">
@@ -503,7 +503,7 @@
         <v-row>
           <v-col cols="12">
             <h2 class="text-h5 text-md-h2">
-              The platform for creators, buyers, and sellers
+              The ultimate platform for creators, buyers, and sellers
             </h2>
             <p class="text-body-1 mt-0 mt-md-3">
               With the BidBack System and PIRS all the participants receive the
