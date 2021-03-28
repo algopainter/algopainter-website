@@ -354,7 +354,7 @@
               <h2 class="my-3">Get back</h2>
               <p>
                 Auction participants receive a percentage of the sale, based on
-                the amount of $ALGOP in their wallets.
+                the amount of <b class="primary--text">$ALGOP tokens</b> in their wallets.
               </p>
             </div>
           </v-col>
@@ -425,7 +425,7 @@
           <v-col align-self="center" cols="12" md="6" sm="12">
             <img
               src="/images/project/bracket.svg"
-              width="61px"
+              width="66px"
               class="mr-2 float-left"
             />
             <div class="ml-9">
@@ -466,7 +466,7 @@
             </h2>
             <p class="text-body-1">
               With the BidBack System and PIRS all the participants receive the
-              incentive the big active on the platform.
+              incentive the be active on the platform.
             </p>
           </v-col>
         </v-row>
@@ -716,6 +716,7 @@ export default {
   color: #000000;
 }
 .simulation {
+  margin: 5px;
   border: 2px dashed #f4538d;
   border-radius: 9px;
 }
