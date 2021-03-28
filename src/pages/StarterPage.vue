@@ -21,7 +21,7 @@
             <p class="text-header mt-4">
               Choose your artist and have your own unique and exclusive work of
               art! Each artwork is minted as a non-fungible token (NFT) on
-              Ethereum's blockchain.
+              the blockchain.
             </p>
             <v-btn large color="primary" class="mt-4">
               <a class="white--text text-decoration-none" href="#artists"
