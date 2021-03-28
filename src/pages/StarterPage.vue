@@ -240,13 +240,9 @@
               <h4 class="text-h4 my-3 font-weight-black">
                 Choice 2 Pictures
               </h4>
-              <p>
+              <p style="min-height: 192px">
                 Choose two images of your choice and create a new unique and
-                limited work of art.
-              </p>
-              <p>
-                Our artist uniquely creates a work of art totally unique with
-                the characteristics of the images sent. Endless possibilities to
+                limited work of art with the characteristics of the bothe images. Endless possibilities to
                 create, register and sell your works.
               </p>
 
@@ -329,13 +325,12 @@
               BidBack System
             </h2>
             <p class="text-body-1 mt-0 mt-md-3">
-              Participate in the Auctions and receive a percentage of the sale
-              back.
+              Join an auction and receive a percentage of the sale price back.
             </p>
             <p class="mt-n2">
-              When you send a artwork to an auction you can set a percentage for
-              those who participate in the action. It will incentivize all the
-              users to send bids.
+              A user can create an auction and set a BidBack percentage. It will incentivize all the 
+              users to send bids because all the bidders will join the BidBack pool and receive 
+              a artwork sell price percentage.
             </p>
           </v-col>
         </v-row>
@@ -393,7 +388,7 @@
             <div class="text-center">
               <h2 class="my-3">Get back</h2>
               <p>
-                Auction participants receive a percentage of the sale, based on
+                All the bidders will receive a percentage of the sale price, based on
                 the amount of <b class="primary--text">$ALGOP tokens</b> in their wallets.
               </p>
             </div>
@@ -508,7 +503,7 @@
         <v-row>
           <v-col cols="12">
             <h2 class="text-h5 text-md-h2">
-              The perfect platform for creators, buyers and sellers
+              The platform for creators, buyers, and sellers
             </h2>
             <p class="text-body-1 mt-0 mt-md-3">
               With the BidBack System and PIRS all the participants receive the
@@ -584,18 +579,16 @@
           <v-col align-self="center" cols="12" md="6">
             <div>
               <h3 class="text-h5 text-md-h3 mb-md-3">
-                Uniqueness certified by the blockchain
+                Blockchain certification
               </h3>
               <p>
-                Uniqueness certified by the blockchain Each artwork is
-                one-of-a-kind, which means that no other copies will ever be
-                sold by us. In order to certify its uniqueness we tokenize the
-                artwork as a NFT on Ethereum's own blockchain.
+                Each artwork is one-of-a-kind, which means that we will never sell any other copies. 
+                To certify its uniqueness, we tokenize the painting as an NFT on the blockchain.
               </p>
               <p>
-                It doesn't prevent that anyone can make digital copies of it;
-                but the original is registered on the blockchain and has only
-                one owner.
+                It doesn't prevent anyone from making digital copies of it, 
+                but the original piece is registered on the blockchain and has only one owner. 
+                We have the uniqueness certified by the blockchain.
               </p>
             </div>
           </v-col>
@@ -671,22 +664,17 @@ export default {
         {
           question: "What is AlgoPainter?",
           answer:
-            "AlgoPainter is a tool for generating unique and limited paintings using one of ours digital painters. When you request a piece of art to an AlgoPainter, you need to specify how this work will be done using a set of parameters to create a unique painting.",
+            "AlgoPainter is a platform to connect digital painters to collectors. The AlgoPainters generate unique and limited paintings using marvelous algorithms. When you request a piece of art to an AlgoPainter, you need to specify how this work will be done using a set of parameters to create a unique painting.",
         },
         {
           question: "How rare is a painting?",
           answer:
-            "Each AlgoPainter can be hired only 1000 times, and for each art, they will be incentive to charge more to get the work done. As a fresh start, they will ask you a small amount of ETH to cover expenses with digital ink and other digital resources. Still, with the works' advancement, they will feel valued and charge fair values for the splendid artistic works they will produce!",
+            "Each AlgoPainter can be hired only a limited amount of time, and for each art, they will be incentivized to charge more to get the work done. They will ask you a small amount to cover expenses with digital ink and other digital resources as a fresh start. Still, with the works' advancement, they will feel valued and charge fair values for the splendid artistic works they will produce!",
         },
         {
           question: "Are there rare items added to the paintings?",
           answer:
-            "Yes! When the an AlgoPainter gets retired, after delivering 1000 beautiful works, he will randomly gift 10% of his clients with new frames to decorate the piece of art, 1% will receiver a golden frame, and 9% will receive a silver frame. And only in the NFThack 2021 all the paintings will receive a unique signature!",
-        },
-        {
-          question: "How much is a piece of art?",
-          answer:
-            "For the first job, the digital artist will charge you 0.01 ETH, and for each work it will increase 0.01 ETH. The last work, before he gets retired, will be sold for 10 ETH!. Hurry up and hire your artist!",
+            "Yes! When the AlgoPainter gets retired, after delivering their beautiful works, he will randomly gift 10% of his clients with new items to decorate the piece of art.",
         },
         {
           question: "Can I sell my piece of art?",
@@ -694,14 +682,19 @@ export default {
             "Yes! We will soon provide an internal marketplace, but you can use any other platform. Feel free to sell or keep your painting!",
         },
         {
-          question: "Where are the high-resolution files?",
-          answer:
-            "After generating the 1000 jobs, we will get all the paintings and render the high-resolution files, just the owner will be able to download the files!",
-        },
-        {
           question: "How Hashly Gwei works?",
           answer:
-            "It is tough to explain how an artist works, but in a simple way she is inspired by some works and feelings, extracts geometric blocks, and assembles a unique work. As she is very organized, you can specify several parameters for her to create a special work for you. You can talk about what inspiration you want her to follow, what way to work with colors, and whether you want more psychedelic and digital work or art to hang on the wall. You are in charge!",
+            "It is tough to explain how an artist works, but simply some works and feelings inspire her, extracting geometric blocks and assembling a unique creation. As she is very organized, you can specify several parameters to create an amazing job for you. You can talk about what inspiration you want her to follow, what way to work with colors, and whether you want more psychedelic and digital work or art to hang on the wall. You are in charge!",
+        },
+        {
+          question: "Can I send my algorithm to the platform?",
+          answer:
+            "Yes you can! You can create your own algorithm, connect to the platform following the communication protocol and start to get new orders!",
+        },
+        {
+          question: "Do I need $ALGOP to use the plataform?",
+          answer:
+            "No, you can use the platform without buying any $ALGOP token. However, you will not be eligible to participate in the BidBack System and the PIRS without our utility token.",
         },
       ],
 
@@ -767,6 +760,11 @@ export default {
   text-align: center;
   color: #000000;
 }
+
+.text-h5 {
+    line-height: 48px !important;
+}
+
 .simulation {
   margin: 5px;
   border: 2px dashed #f4538d;
