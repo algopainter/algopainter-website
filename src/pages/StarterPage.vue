@@ -20,8 +20,8 @@
             </h2>
             <p class="text-header mt-4">
               Choose your artist and have your own unique and exclusive work of
-              art! Each artwork is minted as a non-fungible token (NFT) on
-              the blockchain.
+              art! Each artwork is minted as a non-fungible token (NFT) on the
+              blockchain.
             </p>
             <v-btn large color="primary" class="mt-4">
               <a class="white--text text-decoration-none" href="#artists"
@@ -83,8 +83,8 @@
             <div class="text-center">
               <h2 class="my-3">Limited</h2>
               <p>
-                A limited combinations of arts by each digital painter will be made
-                available. <br />
+                A limited combinations of arts by each digital painter will be
+                made available. <br />
                 Like Van Ghog's works.
               </p>
             </div>
@@ -242,8 +242,9 @@
               </h4>
               <p style="min-height: 192px">
                 Choose two images of your choice and create a new unique and
-                limited work of art with the characteristics of the bothe images. Endless possibilities to
-                create, register and sell your works.
+                limited work of art with the characteristics of the bothe
+                images. Endless possibilities to create, register and sell your
+                works.
               </p>
 
               <img
@@ -317,6 +318,24 @@
       </v-container>
     </v-sheet>
 
+    <v-sheet id="buy-sell">
+      <v-container>
+        <v-row>
+          <v-col cols="12">
+            <div class="card-ultimate-platform text-center">
+              <h2 class="text-h5 text-md-h2 white--text">
+                The ultimate platform for creators, buyers, and sellers
+              </h2>
+              <p class="text-body-1 mt-0 mt-md-3 white--text">
+                With the BidBack System and PIRS all the participants receive
+                the incentive the be active on the platform.
+              </p>
+            </div>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
+
     <v-sheet id="bidback">
       <v-container>
         <v-row>
@@ -328,9 +347,10 @@
               Join an auction and receive a percentage of the sale price back.
             </p>
             <p class="mt-n2">
-              A user can create an auction and set a BidBack percentage. It will incentivize all the 
-              users to send bids because all the bidders will join the BidBack pool and receive 
-              a artwork sell price percentage.
+              A user can create an auction and set a BidBack percentage. It will
+              incentivize all the users to send bids because all the bidders
+              will join the BidBack pool and receive a artwork sell price
+              percentage.
             </p>
           </v-col>
         </v-row>
@@ -388,8 +408,9 @@
             <div class="text-center">
               <h2 class="my-3">Get back</h2>
               <p>
-                All the bidders will receive a percentage of the sale price, based on
-                the amount of <b class="primary--text">$ALGOP tokens</b> in their wallets.
+                All the bidders will receive a percentage of the sale price,
+                based on the amount of
+                <b class="primary--text">$ALGOP tokens</b> in their wallets.
               </p>
             </div>
           </v-col>
@@ -420,8 +441,8 @@
             <div>
               <h2 class="my-3 text-center text-md-left">Creators Royalties</h2>
               <p>
-                The artist who sent the work or the user who hired an AlgoPainter to
-                generate the work.
+                The artist who sent the work or the user who hired an
+                AlgoPainter to generate the work.
               </p>
             </div>
           </v-col>
@@ -498,22 +519,6 @@
       </v-container>
     </v-sheet>
 
-    <v-sheet id="buy-sell">
-      <v-container>
-        <v-row>
-          <v-col cols="12">
-            <h2 class="text-h5 text-md-h2">
-              The ultimate platform for creators, buyers, and sellers
-            </h2>
-            <p class="text-body-1 mt-0 mt-md-3">
-              With the BidBack System and PIRS all the participants receive the
-              incentive the be active on the platform.
-            </p>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-sheet>
-
     <v-sheet id="gallery">
       <v-container>
         <h2 class="text-h2 text-center pb-9">
@@ -582,13 +587,14 @@
                 Blockchain certification
               </h3>
               <p>
-                Each artwork is one-of-a-kind, which means that we will never sell any other copies. 
-                To certify its uniqueness, we tokenize the painting as an NFT on the blockchain.
+                Each artwork is one-of-a-kind, which means that we will never
+                sell any other copies. To certify its uniqueness, we tokenize
+                the painting as an NFT on the blockchain.
               </p>
               <p>
-                It doesn't prevent anyone from making digital copies of it, 
-                but the original piece is registered on the blockchain and has only one owner. 
-                We have the uniqueness certified by the blockchain.
+                It doesn't prevent anyone from making digital copies of it, but
+                the original piece is registered on the blockchain and has only
+                one owner. We have the uniqueness certified by the blockchain.
               </p>
             </div>
           </v-col>
@@ -762,7 +768,7 @@ export default {
 }
 
 .text-h5 {
-    line-height: 48px !important;
+  line-height: 48px !important;
 }
 
 .simulation {
@@ -770,6 +776,12 @@ export default {
   border: 2px dashed #f4538d;
   border-radius: 9px;
   margin: 3px !important;
+}
+
+.card-ultimate-platform {
+  background-color: #f4538d;
+  border-radius: 6px;
+  padding: 80px 270px;
 }
 
 /* mobile */
@@ -780,6 +792,9 @@ export default {
   .degrade {
     height: 100px;
     margin-bottom: -50px;
+  }
+  .card-ultimate-platform {
+    padding: 20px;
   }
 }
 </style>
