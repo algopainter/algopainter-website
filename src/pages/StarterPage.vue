@@ -781,7 +781,7 @@ export default {
 .card-ultimate-platform {
   background-color: #f4538d;
   border-radius: 6px;
-  padding: 80px 270px;
+  padding: 50px 50px;
 }
 
 /* mobile */
