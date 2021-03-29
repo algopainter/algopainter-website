@@ -5,6 +5,7 @@
         <v-row>
           <v-col cols="12" md="3" class="d-none d-md-block">
             <v-img
+              data-aos="fade-right"
               class="rounded-lg mt-2 float-rigth"
               max-height="480"
               contain
@@ -14,7 +15,7 @@
             </v-img>
           </v-col>
 
-          <v-col cols="12" md="6" class="text-center">
+          <v-col cols="12" md="6" class="text-center" data-aos="fade-up">
             <h2 class="text-h2">
               Make Your Cryto Art
             </h2>
@@ -32,6 +33,7 @@
 
           <v-col cols="12" md="3" class="d-none d-md-block">
             <v-img
+              data-aos="fade-left"
               class="rounded-lg mt-2 float-left"
               max-height="480"
               contain
@@ -48,7 +50,7 @@
     <v-sheet id="UniqueArt" color="transparent">
       <v-container>
         <v-row justify="space-between">
-          <v-col cols="12" md="3">
+          <v-col cols="12" md="3" data-aos="fade-up">
             <v-img
               class="mx-auto"
               src="/images/project/unique-art.svg"
@@ -69,7 +71,7 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="3">
+          <v-col cols="12" md="3" data-aos="fade-down">
             <v-img
               class="mx-auto"
               src="/images/project/limited.svg"
@@ -90,7 +92,7 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="3">
+          <v-col cols="12" md="3" data-aos="fade-up">
             <v-img
               class="mx-auto"
               src="/images/project/blockchain.svg"
@@ -130,7 +132,7 @@
 
         <v-row justify="center">
           <v-col cols="12" md="3">
-            <div class="text-center">
+            <div class="text-center" data-aos-duration="900" data-aos="fade-up">
               <img
                 class="mx-auto"
                 src="/images/project/hashly-gwei.svg"
@@ -146,7 +148,11 @@
           </v-col>
 
           <v-col cols="12" md="3">
-            <div class="text-center">
+            <div
+              class="text-center"
+              data-aos-duration="900"
+              data-aos="fade-down"
+            >
               <img
                 class="mx-auto"
                 src="/images/project/angelo-fracthereum.svg"
@@ -160,7 +166,7 @@
           </v-col>
 
           <v-col cols="12" md="3">
-            <div class="text-center">
+            <div class="text-center" data-aos-duration="900" data-aos="fade-up">
               <img
                 class="mx-auto"
                 src="/images/project/claude-monero.svg"
@@ -185,13 +191,21 @@
             md="6"
             sm="12"
             class="d-none d-md-block"
+            data-aos="fade-right"
           >
             <v-img
               src="/images/project/hashly-gwei-example.png"
               width="90%"
             ></v-img>
           </v-col>
-          <v-col align-self="center" class="pa-md-9" cols="12" md="6" sm="12">
+          <v-col
+            align-self="center"
+            class="pa-md-9"
+            cols="12"
+            md="6"
+            sm="12"
+            data-aos="fade-left"
+          >
             <div>
               <h6 class="text-body-1 my-3 font-weight-black primary--text">
                 Hashly Gwei
@@ -232,7 +246,14 @@
     <v-sheet id="about-claude-and-fracthereum" color="transparent">
       <v-container>
         <v-row justify="space-between">
-          <v-col align-self="start" cols="12" md="3" sm="12">
+          <v-col
+            align-self="start"
+            cols="12"
+            md="3"
+            sm="12"
+            data-aos-duration="900"
+            data-aos="fade-up"
+          >
             <div>
               <h6 class="text-body-1 my-md-3 font-weight-black primary--text">
                 Claude Monero
@@ -264,6 +285,7 @@
             md="3"
             sm="12"
             class="d-none d-md-block"
+            data-aos="fade-up"
           >
             <div class="text-center">
               <img
@@ -273,7 +295,14 @@
               />
             </div>
           </v-col>
-          <v-col align-self="start" cols="12" md="3" sm="12">
+          <v-col
+            align-self="start"
+            cols="12"
+            md="3"
+            sm="12"
+            data-aos-duration="900"
+            data-aos="fade-up"
+          >
             <div>
               <h6 class="text-body-1 my-md-3 font-weight-black primary--text">
                 Angelo Fracthereum
@@ -305,6 +334,7 @@
             md="3"
             sm="12"
             class="d-none d-md-block"
+            data-aos="fade-up"
           >
             <div class="text-center">
               <img
@@ -320,7 +350,7 @@
 
     <v-sheet id="buy-sell">
       <v-container>
-        <v-row>
+        <v-row data-aos="flip-up" data-aos-duration="900">
           <v-col cols="12">
             <div class="card-ultimate-platform text-center">
               <h2 class="text-h5 text-md-h2 white--text">
@@ -338,7 +368,7 @@
 
     <v-sheet id="bidback">
       <v-container>
-        <v-row>
+        <v-row data-aos="zoom-in">
           <v-col cols="12">
             <h2 class="text-h5 text-md-h2">
               BidBack System
@@ -356,7 +386,7 @@
         </v-row>
 
         <v-row justify="space-between" class="mt-n3 mt-sm-0">
-          <v-col cols="12" md="3" class="mt-n3 mt-md-0">
+          <v-col cols="12" md="3" class="mt-n3 mt-md-0" data-aos="fade-up">
             <v-img
               class="mx-auto"
               src="/images/project/make-bid.svg"
@@ -375,7 +405,7 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="3" class="mt-n3 mt-md-0">
+          <v-col cols="12" md="3" class="mt-n3 mt-md-0" data-aos="fade-down">
             <v-img
               class="mx-auto"
               src="/images/project/auction.svg"
@@ -394,7 +424,7 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="3" class="mt-n3 mt-md-0">
+          <v-col cols="12" md="3" class="mt-n3 mt-md-0" data-aos="fade-up">
             <v-img
               class="mx-auto"
               src="/images/project/get-back.svg"
@@ -420,7 +450,7 @@
 
     <v-sheet id="PIRS">
       <v-container>
-        <v-row>
+        <v-row data-aos="zoom-in">
           <v-col cols="12">
             <h2 class="text-h5 text-md-h2">
               Perpetual Inclusive Royalty System - PIRS
@@ -429,7 +459,7 @@
         </v-row>
 
         <v-row justify="space-between">
-          <v-col cols="12" sm="2">
+          <v-col cols="12" sm="2" data-aos="fade-up">
             <v-img
               class="mx-auto my-n9 my-md-0"
               src="/images/project/creators-royalties.svg"
@@ -437,7 +467,7 @@
             ></v-img>
           </v-col>
 
-          <v-col cols="12" sm="4">
+          <v-col cols="12" sm="4" data-aos="fade-down">
             <div>
               <h2 class="my-3 text-center text-md-left">Creators Royalties</h2>
               <p>
@@ -447,7 +477,7 @@
             </div>
           </v-col>
 
-          <v-col cols="12" sm="2">
+          <v-col cols="12" sm="2" data-aos="fade-up">
             <v-img
               class="mx-auto my-n6 my-md-0"
               src="/images/project/investors-royalties.svg"
@@ -455,7 +485,7 @@
             ></v-img>
           </v-col>
 
-          <v-col cols="12" sm="4">
+          <v-col cols="12" sm="4" data-aos="fade-down">
             <div>
               <h2 class="my-3 text-center text-md-left">Investors Royalties</h2>
               <p>
@@ -466,7 +496,7 @@
           </v-col>
         </v-row>
 
-        <v-row class="simulation">
+        <v-row class="simulation" data-aos="zoom-in">
           <v-col align-self="center" cols="12" md="6" sm="12">
             <h4 class="text-h4 pa-3">
               Simulation
@@ -521,14 +551,18 @@
 
     <v-sheet id="gallery">
       <v-container>
-        <h2 class="text-h2 text-center pb-9">
-          Gallery
-          <v-divider
-            width="80px"
-            dark
-            class="mx-auto black--border"
-          ></v-divider>
-        </h2>
+        <v-row data-aos="zoom-in">
+          <v-col cols="12">
+            <h2 class="text-h2 text-center pb-9">
+              Gallery
+              <v-divider
+                width="80px"
+                dark
+                class="mx-auto black--border"
+              ></v-divider>
+            </h2>
+          </v-col>
+        </v-row>
 
         <v-row dense v-if="paintings == false">
           <v-col>
@@ -560,7 +594,11 @@
             :key="painting.tokenId"
             v-for="painting in paintings"
           >
-            <painting-card :key="painting.tokenId" :painting="painting" />
+            <painting-card
+              data-aos="fade-up"
+              :key="painting.tokenId"
+              :painting="painting"
+            />
           </v-col>
         </v-row>
 
@@ -581,7 +619,13 @@
     <v-sheet id="nft">
       <v-container>
         <v-row justify="space-between">
-          <v-col align-self="center" cols="12" md="6">
+          <v-col
+            align-self="center"
+            cols="12"
+            md="6"
+            data-aos-duration="900"
+            data-aos="fade-right"
+          >
             <div>
               <h3 class="text-h5 text-md-h3 mb-md-3">
                 Blockchain certification
@@ -599,7 +643,13 @@
             </div>
           </v-col>
 
-          <v-col align-self="center" cols="12" md="4">
+          <v-col
+            align-self="center"
+            cols="12"
+            md="4"
+            data-aos-duration="900"
+            data-aos="fade-left"
+          >
             <v-img class="mx-auto" src="/images/project/nft-logo.png"></v-img>
           </v-col>
         </v-row>
@@ -607,7 +657,7 @@
     </v-sheet>
 
     <v-sheet id="faq" color="transparent">
-      <v-container>
+      <v-container data-aos="fade-down" data-aos-duration="1200">
         <v-row>
           <v-col cols="12">
             <div class="text-center">
@@ -637,7 +687,7 @@
     <v-sheet>
       <v-container>
         <v-row justify="center" class="my-3">
-          <v-col cols="12" md="8">
+          <v-col cols="12" md="8" data-aos-duration="1200" data-aos="fade-right">
             <div>
               <h4 class="text-h5 text-md-h4">
                 Hire an AlgoPainter rigth now and start to collect unique
@@ -646,7 +696,7 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="4">
+          <v-col cols="12" md="4" data-aos-duration="1200" data-aos="fade-left">
             <v-btn @click="goToApp()" x-large block height="76" color="primary">
               Go to App
             </v-btn>
@@ -781,7 +831,7 @@ export default {
 .card-ultimate-platform {
   background-color: #f4538d;
   border-radius: 6px;
-  padding: 50px 50px;
+  padding: 50px;
 }
 
 /* mobile */
