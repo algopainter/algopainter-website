@@ -17,7 +17,7 @@
 
           <v-col cols="12" md="6" class="text-center" data-aos="fade-up">
             <h2 class="text-h2">
-              Make Your Cryto Art
+              Make Your Crypto Art
             </h2>
             <p class="text-header mt-4">
               Choose your artist and have your own unique and exclusive work of
