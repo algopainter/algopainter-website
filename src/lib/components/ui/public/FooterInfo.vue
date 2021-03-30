@@ -6,7 +6,7 @@
           <v-col cols="12" md="3" align-self="center">
             <h2 class="text-h2 white--text">AlgoPainter</h2>
             <div class="my-1 white--text">
-              © All Rights Reserved
+              © All Rights Reserved 2021
             </div>
           </v-col>
           <v-col cols="12" md="3">
@@ -65,14 +65,6 @@ export default {
   methods: {
     goToWhitepaper() {
       window.location = "/whitepaper/whitepaper-v1.0.0.pdf";
-    },
-
-    goToBlog() {
-      window.location = "https://blog.votility.io";
-    },
-
-    goToTrello() {
-      window.location = "https://trello.com/votilityprotocol";
     },
 
     goToTwitter() {

@@ -87,7 +87,7 @@
               <p>
                 A limited combinations of arts by each digital painter will be
                 made available. <br />
-                Like Van Ghog's works.
+                Like Van Gogh's works.
               </p>
             </div>
           </v-col>
@@ -690,7 +690,7 @@
           <v-col cols="12" md="8" data-aos-duration="1200" data-aos="fade-right">
             <div>
               <h4 class="text-h5 text-md-h4">
-                Hire an AlgoPainter rigth now and start to collect unique
+                Hire an AlgoPainter right now and start to collect unique
                 digital paintings!
               </h4>
             </div>
@@ -748,7 +748,7 @@ export default {
             "Yes you can! You can create your own algorithm, connect to the platform following the communication protocol and start to get new orders!",
         },
         {
-          question: "Do I need $ALGOP to use the plataform?",
+          question: "Do I need $ALGOP to use the platform?",
           answer:
             "No, you can use the platform without buying any $ALGOP token. However, you will not be eligible to participate in the BidBack System and the PIRS without our utility token.",
         },
