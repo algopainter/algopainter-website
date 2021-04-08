@@ -141,9 +141,7 @@
             </div>
             <div class="text-center">
               <h5 class="text-h5 my-3">Hashly Gwei</h5>
-              <v-btn @click="goNewPainting()" color="primary">
-                Make Your Art
-              </v-btn>
+              <h4 class="text-h4 mt-n1 primary--text">Coming Soon</h4>
             </div>
           </v-col>
 
@@ -229,13 +227,8 @@
                 width="90%"
               ></v-img>
 
-              <v-btn
-                @click="goNewPainting()"
-                large
-                color="primary"
-                class="mt-4"
-              >
-                Make Your Art
+              <v-btn large color="primary" class="mt-4">
+                Coming Soon
               </v-btn>
             </div>
           </v-col>
@@ -620,7 +613,12 @@
     <v-sheet>
       <v-container>
         <v-row justify="center" class="my-3">
-          <v-col cols="12" md="8" data-aos-duration="1200" data-aos="fade-right">
+          <v-col
+            cols="12"
+            md="8"
+            data-aos-duration="1200"
+            data-aos="fade-right"
+          >
             <div>
               <h4 class="text-h5 text-md-h4">
                 Hire an AlgoPainter right now and start to collect unique
