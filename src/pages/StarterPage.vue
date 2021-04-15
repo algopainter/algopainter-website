@@ -628,7 +628,7 @@
           </v-col>
 
           <v-col cols="12" md="4" data-aos-duration="1200" data-aos="fade-left">
-            <v-btn @click="goToApp()" x-large block height="76" color="primary">
+            <v-btn x-large block height="76" color="primary">
               Go to App
             </v-btn>
           </v-col>

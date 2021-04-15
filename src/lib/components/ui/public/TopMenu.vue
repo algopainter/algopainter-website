@@ -53,9 +53,9 @@
 
         <v-spacer></v-spacer>
 
-        <v-btn class="d-none d-md-block" color="primary" @click="goToApp()" large>
+        <!-- <v-btn class="d-none d-md-block" color="primary" @click="goToApp()" large>
           Go to App
-        </v-btn>
+        </v-btn> -->
       </v-container>
     </v-app-bar>
   </div>
