@@ -542,6 +542,36 @@
       </v-container>
     </v-sheet>
 
+    <v-sheet id="team">
+      <v-container>
+        <v-row data-aos="zoom-in">
+          <v-col cols="12">
+            <h2 class="text-h5 text-md-h2">
+              The Team
+            </h2>
+          </v-col>
+        </v-row>
+
+        <v-row data-aos="zoom-in">
+          <v-col cols="12" sm="6" md="4" lg="3" v-for="item in team" v-bind:key="item.name">
+            <v-img :src="item.img" max-width="257px" class="mx-auto"></v-img>
+            <div class="text-center">
+              <h2 class="my-1 primary--text">{{ item.name }}</h2>
+              <div>{{ item.description }}</div>
+            </div>
+            <div class="d-flex justify-center">
+              <v-btn icon color="grey lighten-1" x-large>
+                <v-icon>mdi-twitter</v-icon>
+              </v-btn>
+              <v-btn icon color="grey lighten-1" x-large>
+                <v-icon>mdi-linkedin</v-icon>
+              </v-btn>
+            </div>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
+
     <v-sheet id="nft">
       <v-container>
         <v-row justify="space-between">
@@ -577,6 +607,20 @@
             data-aos="fade-left"
           >
             <v-img class="mx-auto" src="/images/project/nft-logo.png"></v-img>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
+
+    <v-sheet id="partnerships" color="transparent" class="my-0 my-md-3 my-lg-3">
+      <v-container data-aos="zoom-in" data-aos-duration="1200">
+        <v-row>
+          <v-col cols="12">
+            <div class="text-center">
+              <h3 class="text-h5 text-md-h3">Partnerships</h3>
+            </div>
+
+            <v-img class="mx-auto mt-6" max-width="350px" src="/images/partnerships/kickpad.png"></v-img>
           </v-col>
         </v-row>
       </v-container>
@@ -628,8 +672,8 @@
           </v-col>
 
           <v-col cols="12" md="4" data-aos-duration="1200" data-aos="fade-left">
-            <v-btn x-large block height="76" color="primary">
-              Go to App
+            <v-btn x-large block height="76" color="primary" disabled>
+              Go to App <span class="ml-1 text-subtitle-2">(Coming Soon)</span>
             </v-btn>
           </v-col>
         </v-row>
@@ -682,6 +726,63 @@ export default {
           question: "Do I need $ALGOP to use the platform?",
           answer:
             "No, you can use the platform without buying any $ALGOP token. However, you will not be eligible to participate in the BidBack System and the PIRS without our utility token.",
+        },
+      ],
+
+      team: [
+        {
+          name: "Gleisson de Assis",
+          img: "/images/team/picture-1.png",
+          description: "Cofounder / Blockchain Specialist",
+          social: {
+            twitter: "/",
+            linkedin: "/",
+          },
+        },
+        {
+          name: "Antonio Hoffert",
+          img: "/images/team/picture-2.png",
+          description: "Cofounder / Blockchain Specialist",
+          social: {
+            twitter: "/",
+            linkedin: "/",
+          },
+        },
+        {
+          name: "Guilherme Dias",
+          img: "/images/team/picture-3.png",
+          description: "Front End Developer",
+          social: {
+            twitter: "/",
+            linkedin: "/",
+          },
+        },
+        {
+          name: "Vinicius Felix",
+          img: "/images/team/picture-4.png",
+          description: "UI/UX Designer",
+          social: {
+            twitter: "/",
+            linkedin: "/",
+          },
+        },
+        {
+          name: "Thiago Alvernaz",
+          img: "/images/team/picture-5.png",
+          description: "UI/UX Designer",
+          social: {
+            twitter: "/",
+            linkedin: "/",
+          },
+        },
+        {
+          name: "Graphic Designer",
+          img: "/images/team/picture-6.png",
+          description: "Luiz Couto",
+          social: {
+            twitter: "/",
+            linkedin: "/",
+          },
         },
       ],
 

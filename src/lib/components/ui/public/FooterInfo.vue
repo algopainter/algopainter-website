@@ -4,8 +4,8 @@
       <v-container fluid>
         <v-row justify="space-between" class="my-3">
           <v-col cols="12" md="3" align-self="center">
-            <h2 class="text-h2 white--text">AlgoPainter</h2>
-            <div class="my-1 white--text">
+            <v-img max-width="280px" src="/images/project/logo-algopainter-white.png"></v-img>
+            <div class="my-2 white--text">
               © All Rights Reserved 2021
             </div>
           </v-col>
@@ -64,7 +64,7 @@
 export default {
   methods: {
     goToWhitepaper() {
-      window.location = "/whitepaper/whitepaper-v1.0.0.pdf";
+      window.location = "/whitepaper/algopainter-deck.pdf";
     },
 
     goToTwitter() {
