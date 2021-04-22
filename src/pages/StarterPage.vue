@@ -559,14 +559,14 @@
               <h2 class="my-1 primary--text">{{ item.name }}</h2>
               <div>{{ item.description }}</div>
             </div>
-            <div class="d-flex justify-center">
+            <!-- <div class="d-flex justify-center">
               <v-btn icon color="grey lighten-1" x-large>
                 <v-icon>mdi-twitter</v-icon>
               </v-btn>
               <v-btn icon color="grey lighten-1" x-large>
                 <v-icon>mdi-linkedin</v-icon>
               </v-btn>
-            </div>
+            </div> -->
           </v-col>
         </v-row>
       </v-container>
