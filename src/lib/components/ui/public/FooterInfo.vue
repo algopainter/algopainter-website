@@ -4,7 +4,10 @@
       <v-container fluid>
         <v-row justify="space-between" class="my-3">
           <v-col cols="12" md="3" align-self="center">
-            <v-img max-width="280px" src="/images/project/logo-algopainter-white.png"></v-img>
+            <v-img
+              max-width="280px"
+              src="/images/project/logo-algopainter-white.png"
+            ></v-img>
             <div class="my-2 white--text">
               © All Rights Reserved 2021
             </div>
@@ -24,7 +27,10 @@
             <h5 class="text-h5 white--text mb-3">
               Menu
             </h5>
-            <a class="white--text d-block text-decoration-none my-1" href="mailto:contact@algopainter.art">
+            <a
+              class="white--text d-block text-decoration-none my-1"
+              href="mailto:contact@algopainter.art"
+            >
               Contact
             </a>
           </v-col>
@@ -52,6 +58,14 @@
               >
                 <v-icon>mdi-github</v-icon>
               </v-btn>
+              <v-btn
+                @click="goToIntagram()"
+                icon
+                color="white lighten-3"
+                class="ml-2"
+              >
+                <v-icon>mdi-instagram</v-icon>
+              </v-btn>
             </div>
           </v-col>
         </v-row>
@@ -73,6 +87,9 @@ export default {
 
     goToGithub() {
       window.location = "https://github.com/algopainter";
+    },
+    goToIntagram() {
+      window.location = "https://www.instagram.com/algopainter";
     },
   },
 };
