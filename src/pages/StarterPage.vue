@@ -769,16 +769,16 @@ export default {
         {
           name: "Thiago Alvernaz",
           img: "/images/team/picture-5.png",
-          description: "UI/UX Designer",
+          description: "Full Stack Developer",
           social: {
             twitter: "/",
             linkedin: "/",
           },
         },
         {
-          name: "Graphic Designer",
+          name: "Luiz Couto",
           img: "/images/team/picture-6.png",
-          description: "Luiz Couto",
+          description: "Graphic Designer",
           social: {
             twitter: "/",
             linkedin: "/",
