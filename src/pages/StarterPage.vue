@@ -627,7 +627,11 @@
             </div>
 
             <div class="d-flex d-justify-center">
-              <a href="https://thekickpad.com/" target="_blank" class="mx-auto align-self-center">
+              <a
+                href="https://thekickpad.com/"
+                target="_blank"
+                class="mx-auto align-self-center"
+              >
                 <img
                   class="mx-auto"
                   height="70px"
@@ -635,7 +639,11 @@
                 />
               </a>
 
-              <a href="https://www.certik.org/" target="_blank" class="mx-auto align-self-center">
+              <a
+                href="https://www.certik.org/"
+                target="_blank"
+                class="mx-auto align-self-center"
+              >
                 <img
                   class="mx-auto"
                   height="180px"
@@ -694,8 +702,8 @@
           </v-col>
 
           <v-col cols="12" md="4" data-aos-duration="1200" data-aos="fade-left">
-            <v-btn x-large block height="76" color="primary" disabled>
-              Go to App <span class="ml-1 text-subtitle-2">(Coming Soon)</span>
+            <v-btn x-large block height="76" color="primary" @click="goToApp()">
+              Go to App
             </v-btn>
           </v-col>
         </v-row>
