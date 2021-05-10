@@ -106,8 +106,8 @@
             <div class="text-center">
               <h2 class="my-3">Blockchain</h2>
               <p>
-                In order to certify its uniqueness we tokenize the artwork as a
-                NFT on the blockchain.
+                In order to certify its uniqueness, we tokenize the artwork as
+                an NFT on the blockchain.
               </p>
             </div>
           </v-col>
@@ -256,9 +256,8 @@
               </h4>
               <p style="min-height: 192px">
                 Choose two images of your choice and create a new unique and
-                limited work of art with the characteristics of the bothe
-                images. Endless possibilities to create, register and sell your
-                works.
+                limited work of art with the characteristics of both the images.
+                Endless possibilities to create, register and sell your works.
               </p>
 
               <img
@@ -350,8 +349,8 @@
                 The ultimate platform for creators, buyers, and sellers
               </h2>
               <p class="text-body-1 mt-0 mt-md-3 white--text">
-                With the BidBack System and PIRS all the participants receive
-                the incentive the be active on the platform.
+                With the BidBack System and PIRS, all the participants receive
+                the incentive to be active on the platform.
               </p>
             </div>
           </v-col>
@@ -372,7 +371,7 @@
             <p class="mt-n2">
               A user can create an auction and set a BidBack percentage. It will
               incentivize all the users to send bids because all the bidders
-              will join the BidBack pool and receive a artwork sell price
+              will join the BidBack pool and receive an artwork sell price
               percentage.
             </p>
           </v-col>
@@ -412,7 +411,7 @@
             <div class="text-center">
               <h2 class="my-3">Wait for the auction</h2>
               <p>
-                Wait for the auction to to be finished.
+                Wait for the auction to be finished.
               </p>
             </div>
           </v-col>
@@ -534,8 +533,8 @@
           <v-col align-self="center" cols="12" md="12" sm="12">
             <p class="text-body-1 mt-n6 mt-md-0 mb-n1">
               The perpetual inclusive royalty system will bring attention to
-              your work because all the owners will always receive a royalty
-              incentivate them to buy and sell.
+              your artwork because all the owners will receive a royalty
+              incentivate to buy and sell.
             </p>
           </v-col>
         </v-row>
@@ -553,7 +552,14 @@
         </v-row>
 
         <v-row data-aos="zoom-in">
-          <v-col cols="12" sm="6" md="4" lg="3" v-for="item in team" v-bind:key="item.name">
+          <v-col
+            cols="12"
+            sm="6"
+            md="4"
+            lg="3"
+            v-for="item in team"
+            v-bind:key="item.name"
+          >
             <v-img :src="item.img" max-width="257px" class="mx-auto"></v-img>
             <div class="text-center">
               <h2 class="my-1 primary--text">{{ item.name }}</h2>
@@ -620,7 +626,23 @@
               <h3 class="text-h5 text-md-h3">Partnerships</h3>
             </div>
 
-            <v-img class="mx-auto mt-6" max-width="350px" src="/images/partnerships/kickpad.png"></v-img>
+            <div class="d-flex d-justify-center">
+              <a href="https://thekickpad.com/" target="_blank" class="mx-auto align-self-center">
+                <img
+                  class="mx-auto"
+                  height="70px"
+                  src="/images/partnerships/kickpad.png"
+                />
+              </a>
+
+              <a href="https://www.certik.org/" target="_blank" class="mx-auto align-self-center">
+                <img
+                  class="mx-auto"
+                  height="180px"
+                  src="/images/partnerships/certik.png"
+                />
+              </a>
+            </div>
           </v-col>
         </v-row>
       </v-container>
@@ -665,7 +687,7 @@
           >
             <div>
               <h4 class="text-h5 text-md-h4">
-                Hire an AlgoPainter right now and start to collect unique
+                Hire an AlgoPainter right now and start to collecting unique
                 digital paintings!
               </h4>
             </div>
