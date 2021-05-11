@@ -16,9 +16,21 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-btn class="d-md-none drawer-button" rounded @click="drawer = !drawer">
-      <v-icon right>mdi-menu</v-icon>
-    </v-btn>
+    <div @click="drawer = !drawer" class="d-md-none drawer-button d-flex menu-mobile">
+        <v-btn rounded small class="ma-1">
+          <v-icon>mdi-menu</v-icon>
+        </v-btn>
+        <span class="d-flex align-center ">Menu</span>
+      <v-spacer></v-spacer>
+      <v-btn
+        class="d-flex ma-1"
+        color="primary"
+        @click="goToApp()"
+        small
+      >
+        Go to App
+      </v-btn>
+    </div>
 
     <v-app-bar class="elevation-0" height="80">
       <v-container class="py-0 px-0 px-sm-2 fill-height">
@@ -53,7 +65,12 @@
 
         <v-spacer></v-spacer>
 
-        <v-btn class="d-none d-md-block" color="primary" @click="goToApp()" large>
+        <v-btn
+          class="d-none d-md-flex"
+          color="primary"
+          @click="goToApp()"
+          large
+        >
           Go to App
         </v-btn>
       </v-container>
@@ -96,5 +113,10 @@ export default {
 .menu >>> .theme--light.v-app-bar.v-toolbar.v-sheet {
   background-color: transparent !important;
   position: absolute;
+}
+
+.menu >>> .menu-mobile {
+  height: 50px;
+  background: #f4f4f5;
 }
 </style>
