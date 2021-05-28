@@ -139,6 +139,14 @@
             </div>
             <div class="text-center">
               <h5 class="text-h5 my-3">Hashly Gwei</h5>
+              <v-btn
+                class="d-flex ma-1"
+                color="primary"
+                @click="goToApp()"
+                small
+              >
+                Go to App
+              </v-btn>
             </div>
           </v-col>
 
@@ -224,7 +232,14 @@
                 width="90%"
               ></v-img>
 
-              <v-btn large color="primary" class="mt-4"> Coming Soon </v-btn>
+              <v-btn
+                class="d-flex ma-1"
+                color="primary"
+                @click="goToApp()"
+                small
+              >
+                Go to App
+              </v-btn>
             </div>
           </v-col>
         </v-row>
@@ -303,7 +318,6 @@
                 src="/images/project/angelo-fracthereum-example.png"
                 width="100%"
               />
-
               <v-btn large color="primary" class="mt-4"> Coming Soon </v-btn>
             </div>
           </v-col>
