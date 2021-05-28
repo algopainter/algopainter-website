@@ -236,7 +236,7 @@
                 class="d-flex ma-1"
                 color="primary"
                 @click="goToApp()"
-                medium
+                large
               >
                 Go to App
               </v-btn>
