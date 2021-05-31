@@ -140,7 +140,7 @@
             <div class="text-center">
               <h5 class="text-h5 my-3">Hashly Gwei</h5>
               <v-btn
-                class="flex-center ma-1"
+                class="flex-center mt-n1"
                 color="primary"
                 @click="goToApp()"
                 large
