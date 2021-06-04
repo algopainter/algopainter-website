@@ -27,6 +27,16 @@
                 >Choose Your Artist
               </a>
             </v-btn>
+            <a
+              href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbee554dbbc677eb9fb711f5e939a2f2302598c75"
+              target="_blank"
+              rel="noopener noreferrer"
+              class=""
+            >
+              <v-btn large color="primary" class="mt-4 ml-2">
+                Buy $ALGOP
+              </v-btn>
+            </a>
           </v-col>
 
           <v-col cols="12" md="3" class="d-none d-md-block">
@@ -107,6 +117,30 @@
                 In order to certify its uniqueness, we tokenize the artwork as
                 an NFT on the blockchain.
               </p>
+            </div>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
+    <v-sheet>
+      <v-container>
+        <v-row class="buy-container mb-10" justify="space-between">
+          <v-col class="col-buy">
+            <div class="mt-1">
+              <p>
+                Buy ALGOP and create incredible artwork in your own way right
+                now!
+              </p>
+            </div>
+            <div>
+              <a
+                href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbee554dbbc677eb9fb711f5e939a2f2302598c75"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-buy"
+              >
+                <v-btn large class="ml-3 btn-buy"> Buy $ALGOP </v-btn>
+              </a>
             </div>
           </v-col>
         </v-row>
@@ -841,6 +875,50 @@ export default {
   background-image: url("../../public/images/project/background-header.png");
   background-size: cover;
   padding: 120px 0px 0px 0px;
+}
+.btn-buy {
+  width: 251px;
+  color: #f4538d;
+  top: -5px;
+  font-weight: bold !important;
+  border-radius: 10px;
+  padding: 30px !important;
+}
+.link-buy {
+  text-decoration: none;
+}
+.col-buy {
+  display: flex;
+  justify-content: center;
+}
+
+.buy-container {
+  background: #f4538d;
+  font-size: 1.3rem;
+  text-align: center !important;
+  border-radius: 15px;
+  color: #ffff;
+  height: 98px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+/*modo responsivo de card buy*/
+@media screen and (max-width: 500px) {
+  .btn-buy {
+    width: 150px;
+    margin-right: 3px;
+  }
+  .buy-container {
+    height: 200px;
+    font-size: 1rem;
+    margin-left: -1px;
+  }
+  .col-buy {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 .degrade {
   width: 100%;
