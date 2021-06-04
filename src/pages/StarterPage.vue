@@ -16,9 +16,7 @@
           </v-col>
 
           <v-col cols="12" md="6" class="text-center" data-aos="fade-up">
-            <h2 class="text-h2">
-              Make Your Crypto Art
-            </h2>
+            <h2 class="text-h2">Make Your Crypto Art</h2>
             <p class="text-header mt-4">
               Choose your artist and have your own unique and exclusive work of
               art! Each artwork is minted as a non-fungible token (NFT) on the
@@ -141,7 +139,6 @@
             </div>
             <div class="text-center">
               <h5 class="text-h5 my-3">Hashly Gwei</h5>
-              <h4 class="text-h4 mt-n1 primary--text">Coming Soon</h4>
             </div>
           </v-col>
 
@@ -227,9 +224,7 @@
                 width="90%"
               ></v-img>
 
-              <v-btn large color="primary" class="mt-4">
-                Coming Soon
-              </v-btn>
+              <v-btn large color="primary" class="mt-4"> Coming Soon </v-btn>
             </div>
           </v-col>
         </v-row>
@@ -251,9 +246,7 @@
               <h6 class="text-body-1 my-md-3 font-weight-black primary--text">
                 Claude Monero
               </h6>
-              <h4 class="text-h4 my-3 font-weight-black">
-                Choose 2 Pictures
-              </h4>
+              <h4 class="text-h4 my-3 font-weight-black">Choose 2 Pictures</h4>
               <p style="min-height: 192px">
                 Choose two images of your choice and create a new unique and
                 limited work of art with the characteristics of both the images.
@@ -266,9 +259,7 @@
                 width="100%"
               />
 
-              <v-btn large color="primary" class="mt-4">
-                Coming Soon
-              </v-btn>
+              <v-btn large color="primary" class="mt-4"> Coming Soon </v-btn>
             </div>
           </v-col>
           <v-col
@@ -299,9 +290,7 @@
               <h6 class="text-body-1 my-md-3 font-weight-black primary--text">
                 Angelo Fracthereum
               </h6>
-              <h4 class="text-h4 my-3 font-weight-black">
-                Fractal Unique Art
-              </h4>
+              <h4 class="text-h4 my-3 font-weight-black">Fractal Unique Art</h4>
               <p>
                 Fractal art is a form of algorithmic art created by calculating
                 fractal objects and representing the calculation results as
@@ -315,9 +304,7 @@
                 width="100%"
               />
 
-              <v-btn large color="primary" class="mt-4">
-                Coming Soon
-              </v-btn>
+              <v-btn large color="primary" class="mt-4"> Coming Soon </v-btn>
             </div>
           </v-col>
           <v-col
@@ -362,9 +349,7 @@
       <v-container>
         <v-row data-aos="zoom-in">
           <v-col cols="12">
-            <h2 class="text-h5 text-md-h2">
-              BidBack System
-            </h2>
+            <h2 class="text-h5 text-md-h2">BidBack System</h2>
             <p class="text-body-1 mt-0 mt-md-3">
               Join an auction and receive a percentage of the sale price back.
             </p>
@@ -391,9 +376,7 @@
             ></v-divider>
             <div class="text-center">
               <h2 class="my-3">Make a bid</h2>
-              <p>
-                Participate in the auction by making a minimum bid.
-              </p>
+              <p>Participate in the auction by making a minimum bid.</p>
             </div>
           </v-col>
 
@@ -410,9 +393,7 @@
             ></v-divider>
             <div class="text-center">
               <h2 class="my-3">Wait for the auction</h2>
-              <p>
-                Wait for the auction to be finished.
-              </p>
+              <p>Wait for the auction to be finished.</p>
             </div>
           </v-col>
 
@@ -490,9 +471,7 @@
 
         <v-row class="simulation" data-aos="zoom-in">
           <v-col align-self="center" cols="12" md="6" sm="12">
-            <h4 class="text-h4 pa-3">
-              Simulation
-            </h4>
+            <h4 class="text-h4 pa-3">Simulation</h4>
             <p class="pa-md-4 text-body-1 text-justify">
               An artwork that was sold for <b>1,000,000 USD</b> and has a
               configuration of <b>10% of Creator Royalties</b> and
@@ -545,9 +524,7 @@
       <v-container>
         <v-row data-aos="zoom-in">
           <v-col cols="12">
-            <h2 class="text-h5 text-md-h2">
-              The Team
-            </h2>
+            <h2 class="text-h5 text-md-h2">The Team</h2>
           </v-col>
         </v-row>
 
