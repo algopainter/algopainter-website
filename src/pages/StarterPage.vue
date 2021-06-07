@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="body">
     <v-sheet color="transparent" class="header">
       <v-container>
         <v-row>
@@ -27,16 +27,19 @@
                 >Choose Your Artist
               </a>
             </v-btn>
-            <a
-              href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbee554dbbc677eb9fb711f5e939a2f2302598c75"
-              target="_blank"
-              rel="noopener noreferrer"
-              class=""
+
+            <v-btn
+              large
+              color="primary"
+              @click="
+                openNewTab(
+                  'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbee554dbbc677eb9fb711f5e939a2f2302598c75'
+                )
+              "
+              class="mt-4 ml-1"
             >
-              <v-btn large color="primary" class="mt-4 ml-2">
-                Buy $ALGOP
-              </v-btn>
-            </a>
+              Buy $ALGOP
+            </v-btn>
           </v-col>
 
           <v-col cols="12" md="3" class="d-none d-md-block">
@@ -52,7 +55,7 @@
           </v-col>
         </v-row>
       </v-container>
-      <div class="degrade"></div>
+      <!--  <div class="degrade"></div> -->
     </v-sheet>
 
     <v-sheet id="UniqueArt" color="transparent">
@@ -123,26 +126,33 @@
       </v-container>
     </v-sheet>
     <v-sheet>
-      <v-container>
-        <v-row class="buy-container mb-10" justify="space-between">
-          <v-col class="col-buy">
-            <div class="mt-1">
-              <p>
-                Buy ALGOP and create incredible artwork in your own way right
-                now!
-              </p>
-            </div>
+      <v-container class="px-6">
+        <v-row class="buy-container">
+          <div
+            :class="
+              $vuetify.breakpoint.mdAndUp
+                ? 'd-flex align-center justify-space-between'
+                : 'justify-center text-center pa-2'
+            "
+            style="width: 100%"
+          >
             <div>
-              <a
-                href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbee554dbbc677eb9fb711f5e939a2f2302598c75"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="link-buy"
-              >
-                <v-btn large class="ml-3 btn-buy"> Buy $ALGOP </v-btn>
-              </a>
+              Buy ALGOP and create incredible artwork in your own way right now!
             </div>
-          </v-col>
+            <div class="pa-1">
+              <v-btn
+                large
+                @click="
+                  openNewTab(
+                    'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbee554dbbc677eb9fb711f5e939a2f2302598c75'
+                  )
+                "
+                style="color: #f4538d"
+              >
+                Buy $ALGOP
+              </v-btn>
+            </div>
+          </div>
         </v-row>
       </v-container>
     </v-sheet>
@@ -687,7 +697,13 @@
           <v-col cols="12">
             <div class="text-center">
               <div
-                class="text-uppercase font-weight-bold body-2 primary--text mb-2"
+                class="
+                  text-uppercase
+                  font-weight-bold
+                  body-2
+                  primary--text
+                  mb-2
+                "
               >
                 Support
               </div>
@@ -852,6 +868,9 @@ export default {
   },
 
   methods: {
+    openNewTab(link) {
+      window.open(link);
+    },
     goNewPainting() {
       console.log("goNewPainting");
       return (window.location = `${this.urlAPP}/paintings/new`);
@@ -871,56 +890,28 @@ export default {
 </script>
 
 <style scoped>
+.body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 .header {
   background-image: url("../../public/images/project/background-header.png");
   background-size: cover;
   padding: 120px 0px 0px 0px;
 }
-.btn-buy {
-  width: 251px;
-  color: #f4538d;
-  top: -5px;
-  font-weight: bold !important;
-  border-radius: 10px;
-  padding: 30px !important;
-}
-.link-buy {
-  text-decoration: none;
-}
-.col-buy {
-  display: flex;
-  justify-content: center;
-}
-
 .buy-container {
   background: #f4538d;
   font-size: 1.3rem;
-  text-align: center !important;
   border-radius: 15px;
   color: #ffff;
-  height: 98px;
-  margin-left: 5px;
   font-weight: bold;
+  padding: 10px;
 }
-/*modo responsivo de card buy*/
-@media screen and (max-width: 500px) {
-  .btn-buy {
-    width: 150px;
-    margin-right: 3px;
-  }
-  .buy-container {
-    height: 200px;
-    font-size: 1rem;
-    margin-left: -1px;
-  }
-  .col-buy {
-    display: flex;
-    width: 90%;
-    align-items: center;
-    flex-direction: column;
-  }
-}
-.degrade {
+
+/*.degrade {
   width: 100%;
   height: 100px;
   margin-bottom: -60px;
@@ -930,7 +921,7 @@ export default {
     rgb(255 255 255) 50%
   );
 }
-
+*/
 #getready {
   background-image: url(/img/background-select-artist.4f2d80b5.png);
   background-size: cover;
