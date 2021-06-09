@@ -862,7 +862,6 @@ export default {
 
   methods: {
     goNewPainting() {
-      console.log("goNewPainting");
       return (window.location = `${this.urlAPP}/paintings/new`);
     },
 
