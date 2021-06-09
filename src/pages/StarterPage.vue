@@ -35,7 +35,7 @@
               target="_blank"
               class="mt-4 btnBuy"
             >
-              <a class="white--text text-decoration-none"> Buy $ALGOP </a>
+              <a class="white--text text-decoration-none">Buy $ALGOP </a>
             </v-btn>
           </v-col>
 
@@ -861,11 +861,7 @@ export default {
   },
 
   methods: {
-    openNewTab(link) {
-      window.open(link);
-    },
     goNewPainting() {
-      console.log("goNewPainting");
       return (window.location = `${this.urlAPP}/paintings/new`);
     },
 
