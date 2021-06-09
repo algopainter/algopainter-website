@@ -31,14 +31,11 @@
             <v-btn
               large
               color="primary"
-              @click="
-                openNewTab(
-                  'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbee554dbbc677eb9fb711f5e939a2f2302598c75'
-                )
-              "
-              class="mt-4 ml-1"
+              href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbee554dbbc677eb9fb711f5e939a2f2302598c75"
+              target="_blank"
+              class="mt-4 btnBuy"
             >
-              Buy $ALGOP
+              <a class="white--text text-decoration-none"> Buy $ALGOP </a>
             </v-btn>
           </v-col>
 
@@ -55,7 +52,6 @@
           </v-col>
         </v-row>
       </v-container>
-      <!--  <div class="degrade"></div> -->
     </v-sheet>
 
     <v-sheet id="UniqueArt" color="transparent">
@@ -96,7 +92,7 @@
             <div class="text-center">
               <h2 class="my-3">Limited</h2>
               <p>
-                A limited combinations of arts by each digital painter will be
+                Limited Combinations of arts by each digital painter will be
                 made available. <br />
                 Like Van Gogh's works.
               </p>
@@ -142,11 +138,8 @@
             <div class="pa-1">
               <v-btn
                 large
-                @click="
-                  openNewTab(
-                    'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbee554dbbc677eb9fb711f5e939a2f2302598c75'
-                  )
-                "
+                href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbee554dbbc677eb9fb711f5e939a2f2302598c75"
+                target="_blank"
                 style="color: #f4538d"
               >
                 Buy $ALGOP
@@ -868,9 +861,6 @@ export default {
   },
 
   methods: {
-    openNewTab(link) {
-      window.open(link);
-    },
     goNewPainting() {
       console.log("goNewPainting");
       return (window.location = `${this.urlAPP}/paintings/new`);
@@ -902,6 +892,9 @@ export default {
   background-size: cover;
   padding: 120px 0px 0px 0px;
 }
+.btnBuy {
+  margin-left: 2px;
+}
 .buy-container {
   background: #f4538d;
   font-size: 1.3rem;
@@ -911,17 +904,6 @@ export default {
   padding: 10px;
 }
 
-/*.degrade {
-  width: 100%;
-  height: 100px;
-  margin-bottom: -60px;
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 0, 0, 0) 0%,
-    rgb(255 255 255) 50%
-  );
-}
-*/
 #getready {
   background-image: url(/img/background-select-artist.4f2d80b5.png);
   background-size: cover;
