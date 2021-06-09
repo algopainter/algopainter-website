@@ -35,7 +35,7 @@
               target="_blank"
               class="mt-4 btnBuy"
             >
-              <a class="white--text text-decoration-none">Buy $ALGOP </a>
+              <a class="white--text text-decoration-none"> Buy $ALGOP </a>
             </v-btn>
           </v-col>
 

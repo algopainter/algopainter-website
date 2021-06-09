@@ -8,25 +8,10 @@
               max-width="280px"
               src="/images/project/logo-algopainter-white.png"
             ></v-img>
-            <div class="my-2 white--text">
-              © All Rights Reserved 2021
-            </div>
+            <div class="my-2 white--text">© All Rights Reserved 2021</div>
           </v-col>
           <v-col cols="12" md="3">
-            <h5 class="text-h5 white--text mb-3">
-              Our policies
-            </h5>
-            <a class="white--text d-block text-decoration-none my-1" href="#">
-              Terms of Service
-            </a>
-            <a class="white--text d-block text-decoration-none my-1" href="#">
-              Privacy Policy
-            </a>
-          </v-col>
-          <v-col cols="12" md="3">
-            <h5 class="text-h5 white--text mb-3">
-              Menu
-            </h5>
+            <h5 class="text-h5 white--text mb-3">Menu</h5>
             <a
               class="white--text d-block text-decoration-none my-1"
               href="mailto:contact@algopainter.art"
