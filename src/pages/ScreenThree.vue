@@ -15,13 +15,29 @@
                     <button
                         class="algo-button"
                     >
-                        <a>Start creating now</a>
+                        <a
+                            :href="baseUrl"
+                            target="_blank"
+                        >
+                            Start creating now
+                        </a>
                     </button>
                 </v-col>
             </v-row>
         </v-container>
     </v-sheet>    
 </template>
+
+<script lang="ts">
+    export default {
+        props: {
+            baseUrl: {
+                type: String,
+                required: true
+            }
+        }
+    }
+</script>
 
 <style lang="scss" scoped>
     #screen-three {

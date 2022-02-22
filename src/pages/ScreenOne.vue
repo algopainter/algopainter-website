@@ -9,7 +9,12 @@
                 <button
                     class="algo-button"
                 >
-                    <a>Create Account</a>
+                    <a
+                        :href="baseUrl + '/edit-profile'"
+                        target="_blank"
+                    >
+                        Create Account
+                    </a>
                 </button>
             </v-row>
             <v-row class="page-wrapper align-center justify-center pt-4">
@@ -20,7 +25,12 @@
                     <button
                         class="algo-button btn-bottom"
                     >
-                        <a>Create an amazing art</a>
+                        <a
+                            :href="baseUrl"
+                            target="_blank"
+                        >
+                            Create an amazing art
+                        </a>
                     </button>
                 </v-col>
                 <img
@@ -32,7 +42,14 @@
     </v-sheet>
 </template>
 <script lang="ts">
-
+    export default {
+        props: {
+            baseUrl: {
+                type: String,
+                required: true
+            }
+        }
+    }
 </script>
 
 <style lang="scss" scoped>

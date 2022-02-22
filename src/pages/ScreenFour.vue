@@ -11,7 +11,12 @@
                         <button
                             class="algo-button mt-4"
                         >
-                            <a>Start using right now</a>
+                            <a
+                                :href="baseUrl + '/create-collectible'"
+                                target="_blank"
+                            >
+                                Start using right now
+                            </a>
                         </button>
                 </v-col>
                 <img
@@ -22,6 +27,17 @@
         </v-container>
   </v-sheet>
 </template>
+
+<script lang="ts">
+    export default {
+        props: {
+            baseUrl: {
+                type: String,
+                required: true
+            }
+        }
+    }
+</script>
 
 <style lang="scss" scoped>
     #screen-four {

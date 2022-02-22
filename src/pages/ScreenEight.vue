@@ -10,17 +10,33 @@
                         <button
                             class="algo-button mt-4"
                         >
-                            <a>Create an amazing art</a>
+                            <a
+                                :href="baseUrl + '/create-collectible'"
+                                target="_blank"
+                            >
+                                Create an amazing art
+                            </a>
                         </button>
                 </v-col>
                 <img
-                src="../../public/images/landingPage/Padlock.png"
-                class="img-padlock"
+                    src="../../public/images/landingPage/Padlock.png"
+                    class="img-padlock"
                 >
             </v-row>
         </v-container>
   </v-sheet>
 </template>
+
+<script lang="ts">
+    export default {
+        props: {
+            baseUrl: {
+                type: String,
+                required: true
+            }
+        }
+    }
+</script>
 
 <style lang="scss" scoped>
     #screen-four {

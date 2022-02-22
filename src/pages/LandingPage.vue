@@ -1,15 +1,49 @@
 <template>
     <div class="pages-container">
-        <screen-one class="page-padding-first"/>
-        <screen-two class="page-padding"/>
-        <screen-three class="page-padding"/>
-        <screen-four class="page-padding"/>
-        <screen-five class="page-padding" />
-        <screen-six class="page-padding" />
-        <screen-seven class="page-padding" />
-        <screen-eight class="page-padding" />
-        <screen-nine class="page-padding" />
-        <screen-ten class="page-padding" />
+        <screen-one
+            class="page-padding-first"
+            :base-url="baseUrl"
+        />
+        <screen-two
+            class="page-padding"
+            :base-url="baseUrl"
+        />
+        <screen-three
+            class="page-padding"
+            :base-url="baseUrl"
+        />
+        <screen-four
+            class="page-padding"
+            :base-url="baseUrl"
+        />
+        <screen-five
+            class="page-padding"
+            :base-url="baseUrl"
+        />
+        <screen-six
+            class="page-padding"
+            :base-url="baseUrl"
+        />
+        <screen-seven
+            class="page-padding"
+            :base-url="baseUrl"
+        />
+        <screen-eight
+            class="page-padding"
+            :base-url="baseUrl"
+        />
+        <screen-nine
+            class="page-padding"
+            :base-url="baseUrl"
+        />
+        <screen-ten
+            class="page-padding"
+            :base-url="baseUrl"
+        />
+        <screen-eleven
+            class="page-padding"
+            :base-url="baseUrl"
+        />
     </div>
 </template>
 <script lang="ts">
@@ -23,8 +57,14 @@
     import ScreenEight from './ScreenEight.vue';
     import ScreenNine from './ScreenNine.vue';
     import ScreenTen from './ScreenTen.vue';
+    import ScreenEleven from './ScreenEleven.vue';
 
 export default {
+    data() {
+        return {
+            baseUrl: process.env.VUE_APP_LINK_APP,
+        }
+    },
     components: {
         ScreenOne,
         ScreenTwo,
@@ -36,7 +76,8 @@ export default {
         ScreenEight,
         ScreenNine,
         ScreenTen,
-    }
+        ScreenEleven
+    }, 
 }
 </script>
 

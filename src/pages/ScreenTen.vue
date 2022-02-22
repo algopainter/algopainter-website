@@ -5,17 +5,17 @@
             <p class="fs-1">FREQUENTLY ASKED QUESTIONS</p>
             <v-expansion-panels multiple class="mt-3 mt-md-8">
               <v-expansion-panel color="blue" v-for="(item, i) in faq" :key="i">
-                <v-expansion-panel-header color="transparent" class="text-h5">
-                    <div class="img-container">
+                <v-expansion-panel-header color="transparent">
+                    <div class="img-container fs-3 font-weight-bold d-flex align-center">
                         <img
                             src="../../public/images/landingPage/ArrowRightBold.png"
                             class="img-arrow-right-bold pr-1"
                         >
                         {{ item.question }}
+                        <div class="thin-line"></div>
                     </div>
                 </v-expansion-panel-header>
-                <div class="thin-line"></div>
-                <v-expansion-panel-content class="text-left">
+                <v-expansion-panel-content class="text-left fs-3">
                   {{ item.answer }}
                 </v-expansion-panel-content>
               </v-expansion-panel>
@@ -75,6 +75,18 @@
             padding: 16px 24px 16px;
         }
     }
+
+    @media (max-width: 450px) {
+        #screen-ten {
+            .v-expansion-panel-header {
+                padding: 10px 0;
+            }
+
+            .container {
+                padding: 0;
+            }
+        }
+    }
 </style>
 
 <style lang="scss" scoped>
@@ -90,5 +102,41 @@
        .thin-line {
            border: 1px solid #1C1B57;
        }
+    }
+
+    @media (max-width: 750px) {
+        #screen-ten {
+            .fs-3 {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    @media (max-width: 650px) {
+        #screen-ten {
+            .fs-3 {
+                font-size: 15px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    @media (max-width: 450px) {
+        #screen-ten {
+            .fs-3 {
+                font-size: 13px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    @media (max-width: 380px) {
+        #screen-ten {
+            .fs-3 {
+                font-size: 11px;
+                line-height: 24px;
+            }
+        }
     }
 </style>

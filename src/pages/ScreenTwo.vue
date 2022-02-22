@@ -20,12 +20,28 @@
                 <button
                     class="algo-button"
                 >
-                    <a>Be a great artist</a>
+                    <a
+                        :href="baseUrl"
+                        target="_blank"
+                    >
+                        Be a great artist
+                    </a>
                 </button>
             </v-row>
         </v-container>
     </v-sheet>
 </template>
+
+<script lang="ts">
+    export default {
+        props: {
+            baseUrl: {
+                type: String,
+                required: true
+            }
+        }
+    }
+</script>
 
 <style lang="scss" scoped>
     #screen-two {
