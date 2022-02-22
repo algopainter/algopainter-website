@@ -52,8 +52,8 @@
         background: url(../../public/images/landingPage/BgPrimary.png);
 
         .img-notebook {
-            width: 360px;
-            height: 480px;
+            width: 100%;
+            height: auto;
         }
 
         .logo {
