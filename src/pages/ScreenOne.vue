@@ -9,12 +9,7 @@
                 <button
                     class="algo-button"
                 >
-                    <a
-                        :href="baseUrl + '/edit-profile'"
-                        target="_blank"
-                    >
-                        Create Account
-                    </a>
+                    <a :href="baseUrl + '/edit-profile'">Create Account</a>
                 </button>
             </v-row>
             <v-row class="page-wrapper align-center justify-center pt-4">
@@ -25,10 +20,7 @@
                     <button
                         class="algo-button btn-bottom"
                     >
-                        <a
-                            :href="baseUrl"
-                            target="_blank"
-                        >
+                        <a :href="baseUrl">
                             Create an amazing art
                         </a>
                     </button>
@@ -72,6 +64,8 @@
 
     @media (max-width: 960px) {
         #screen-one {
+            height: auto;
+
             .page-wrapper {
                 flex-direction: column;
             }
@@ -82,7 +76,7 @@
             }
             
             .img-notebook {
-                margin-top: 16px;
+                margin-top: 32px;
             }
 
             .img-notebook {

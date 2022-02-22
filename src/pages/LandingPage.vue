@@ -16,30 +16,15 @@
             class="page-padding"
             :base-url="baseUrl"
         />
-        <screen-five
-            class="page-padding"
-            :base-url="baseUrl"
-        />
-        <screen-six
-            class="page-padding"
-            :base-url="baseUrl"
-        />
-        <screen-seven
-            class="page-padding"
-            :base-url="baseUrl"
-        />
+        <screen-five class="page-padding" />
+        <screen-six class="page-padding" />
+        <screen-seven class="page-padding"/>
         <screen-eight
             class="page-padding"
             :base-url="baseUrl"
         />
-        <screen-nine
-            class="page-padding"
-            :base-url="baseUrl"
-        />
-        <screen-ten
-            class="page-padding"
-            :base-url="baseUrl"
-        />
+        <screen-nine class="page-padding" />
+        <screen-ten class="page-padding" />
         <screen-eleven
             class="page-padding"
             :base-url="baseUrl"
@@ -110,7 +95,7 @@ export default {
         text-align: center;
         padding: 8px 16px;
         a {
-            color: #ffffff;
+            color: #ffffff !important;
         }
     }
 

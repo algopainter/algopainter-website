@@ -1,7 +1,7 @@
 <template>
   <v-sheet id="screen-four">
-        <v-container class="align-center justify-center fill-height">
-            <v-row class="page-wrapper align-center justify-center fill-height">
+        <v-container class="align-center justify-center">
+            <v-row class="page-wrapper align-center justify-center">
                 <v-col class="content-container">
                     <p class="fs-2">Why Choose Us?</p>
                     <p class="c-primary font-weight-bold fs-5">Learn how to use AlgoPainter</p>
@@ -11,12 +11,7 @@
                         <button
                             class="algo-button mt-4"
                         >
-                            <a
-                                :href="baseUrl + '/create-collectible'"
-                                target="_blank"
-                            >
-                                Start using right now
-                            </a>
+                            <a :href="baseUrl + '/create-collectible'">Start using right now</a>
                         </button>
                 </v-col>
                 <img
@@ -41,8 +36,6 @@
 
 <style lang="scss" scoped>
     #screen-four {
-        height: 100vh;
-        width: 100vw;
         overflow-x: hidden;
         background: #030017;
         
@@ -88,7 +81,6 @@
 
     @media (max-width: 400px) {
         #screen-four {
-            height: 120vh;
             .img-monitor {
                 width: 195px;
                 height: 175px;

@@ -7,12 +7,7 @@
             <button
                 class="algo-button"
             >
-                <a
-                    :href="baseUrl"
-                    target="_blank"
-                >
-                    Start using right now
-                </a>
+                <a :href="baseUrl">Start using right now</a>
             </button>
         </v-container>
     </v-sheet>

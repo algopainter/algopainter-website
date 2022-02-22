@@ -1,7 +1,7 @@
 <template>
   <v-sheet id="screen-four">
-        <v-container class="align-center justify-center fill-height">
-            <v-row class="page-wrapper align-center justify-center fill-height">
+        <v-container class="align-center justify-center">
+            <v-row class="page-wrapper align-center justify-center">
                 <v-col class="content-container">
                     <p class="fs-2">You can trust us.</p>
                     <p class="c-primary font-weight-bold fs-5">Blockchain Certification</p>
@@ -10,12 +10,7 @@
                         <button
                             class="algo-button mt-4"
                         >
-                            <a
-                                :href="baseUrl + '/create-collectible'"
-                                target="_blank"
-                            >
-                                Create an amazing art
-                            </a>
+                            <a :href="baseUrl + '/create-collectible'">Create an amazing art</a>
                         </button>
                 </v-col>
                 <img
@@ -40,8 +35,6 @@
 
 <style lang="scss" scoped>
     #screen-four {
-        height: 100vh;
-        width: 100vw;
         overflow-x: hidden;
         background: linear-gradient(180deg, #030018 0%, #01002D 100%);
         color: #ffffff;
@@ -76,12 +69,6 @@
                 width: 260px;
                 height: 230px;
             }
-        }
-    }
-
-    @media (max-width: 400px) {
-        #screen-four {
-            height: 120vh;
         }
     }
 </style>

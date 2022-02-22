@@ -1,7 +1,7 @@
 <template>
-    <v-sheet id="screen-three" class="fill-height">
-        <v-container class="align-center justify-center fill-height">
-            <v-row class="page-wrapper align-center justify-center fill-height">
+    <v-sheet id="screen-three">
+        <v-container class="align-center justify-center">
+            <v-row class="page-wrapper align-center justify-center">
                 <img
                     src="../../public/images/landingPage/ExpressionsArt.png"
                     class="img-expressions-art"
@@ -12,15 +12,8 @@
                     <p class="fs-1"><v-icon class="i-chevron" >mdi-chevron-right</v-icon>Each NFT created is unique</p>
                     <p class="fs-1"><v-icon class="i-chevron" >mdi-chevron-right</v-icon>You can upload your own algorithm</p>
                     <p class="fs-1"><v-icon class="i-chevron" >mdi-chevron-right</v-icon>Earn PIRS, a Royalties system that will help you monetize your work in a secure and sustainable way</p>
-                    <button
-                        class="algo-button"
-                    >
-                        <a
-                            :href="baseUrl"
-                            target="_blank"
-                        >
-                            Start creating now
-                        </a>
+                    <button class="algo-button">
+                        <a :href="baseUrl">Start creating now</a>
                     </button>
                 </v-col>
             </v-row>
@@ -41,8 +34,6 @@
 
 <style lang="scss" scoped>
     #screen-three {
-        height: 100vh;
-        width: 100vw;
         overflow-x: hidden;
         background: url(../../public/images/landingPage/BgPrimary.png);
         
