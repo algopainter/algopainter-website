@@ -14,9 +14,9 @@
             </v-row>
             <v-row class="page-wrapper align-center justify-center pt-4">
                 <v-col class="content-container col-6 pa-0">
-                    <h6 class="fs-6 c-primary font-weight-bold">AlgoPainter helps artists to create, distribute and sell NFTs on scale in a simple.</h6>
-                    <h6 class="fs-2 py-2 font-weight-bold">A platform where artists can upload their own generative art and have other people create unique NFTs using algorithms based on it.</h6>
-                    <h6 class="fs-1 pb-4 c-secondary">It’s like having your own NFT-creating, revenue generating machine that works 24 hours on your behalf.</h6>
+                    <p class="fs-6 c-primary font-weight-bold">AlgoPainter: releasing Artists to the world and unique NTFs to Collectors.</p>
+                    <p class="fs-2 py-2 font-weight-bold">A platform where artists can upload their own generative art and have other people create unique NFTs using algorithms based on it.</p>
+                    <p class="fs-1 pb-4 c-secondary">It’s like having your own NFT-creating, revenue generating machine that works 24 hours on your behalf.</p>
                     <button
                         class="algo-button btn-bottom"
                     >
