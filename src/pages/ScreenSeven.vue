@@ -34,7 +34,7 @@
                         <button
                             class="algo-button"
                         >
-                            <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xbee554dbbc677eb9fb711f5e939a2f2302598c75">Buy $ALGOP now</a>
+                            <a href="https://pancakeswap.finance/swap?outputCurrency=0xbee554dbbc677eb9fb711f5e939a2f2302598c75">Buy $ALGOP now</a>
                         </button>
                     </v-col>
                 </v-row>
