@@ -5,13 +5,7 @@ Vue.use(Router)
 
 export const routes = [{
   path: '/',
-  component: () => import(/* webpackChunkName: "layout-default" */ '@/layouts/SimpleLayout.vue'),
-  children: [{
-    path: '',
-    name: 'home',
-    component: () => import(/* webpackChunkName: "starter-page" */ '@/pages/StarterPage.vue')
-  }
-  ]
+  component: () => import(/* webpackChunkName: "starter-page" */ '@/pages/LandingPage.vue'),
 }]
 
 const router = new Router({
