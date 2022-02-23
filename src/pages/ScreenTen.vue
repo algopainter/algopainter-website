@@ -33,30 +33,30 @@
                         question: 'WHAT IS ALGOPAINTER?',
                         answer: 'AlgoPainter is a platform to connect digital painters to collectors. The AlgoPainters generate unique and limited paintings using marvelous algorithms. When you request a piece of art to an AlgoPainter, you need to specify how this work will be done using a set of parameters to create a unique painting.',
                     },
-                    {
-                        question: 'HOW CAN I USE IT?',
-                        answer: "Each AlgoPainter can be hired only a limited amount of time, and for each art, they will be incentivized to charge more to get the work done. They will ask you a small amount to cover expenses with digital ink and other digital resources as a fresh start. Still, with the works' advancement, they will feel valued and charge fair values for the splendid artistic works they will produce!",
-                    },
-                    {
-                        question: 'DO I NEED CODING SKILLS?',
-                        answer: 'Yes! When the AlgoPainter gets retired, after delivering their beautiful works, he will randomly gift 10% of his clients with new items to decorate the piece of art.',
-                    },
-                    {
-                        question: 'HOW RARE IS A PAINTING (NFT)?',
-                        answer: 'Yes! We will soon provide an internal marketplace, but you can use any other platform. Feel free to sell or keep your painting!',
-                    },
-                    {
-                        question: 'CAN I SELL MY NFTs?',
-                        answer: 'It is tough to explain how an artist works, but simply some works and feelings inspire her, extracting geometric blocks and assembling a unique creation. As she is very organized, you can specify several parameters to create an amazing job for you. You can talk about what inspiration you want her to follow, what way to work with colors, and whether you want more psychedelic and digital work or art to hang on the wall. You are in charge!',
-                    },
+                    // {
+                    //     question: 'HOW CAN I USE IT?',
+                    //     answer: "Each AlgoPainter can be hired only a limited amount of time, and for each art, they will be incentivized to charge more to get the work done. They will ask you a small amount to cover expenses with digital ink and other digital resources as a fresh start. Still, with the works' advancement, they will feel valued and charge fair values for the splendid artistic works they will produce!",
+                    // },
+                    // {
+                    //     question: 'DO I NEED CODING SKILLS?',
+                    //     answer: 'Yes! When the AlgoPainter gets retired, after delivering their beautiful works, he will randomly gift 10% of his clients with new items to decorate the piece of art.',
+                    // },
+                    // {
+                    //     question: 'HOW RARE IS A PAINTING (NFT)?',
+                    //     answer: 'Yes! We will soon provide an internal marketplace, but you can use any other platform. Feel free to sell or keep your painting!',
+                    // },
+                    // {
+                    //     question: 'CAN I SELL MY NFTs?',
+                    //     answer: 'It is tough to explain how an artist works, but simply some works and feelings inspire her, extracting geometric blocks and assembling a unique creation. As she is very organized, you can specify several parameters to create an amazing job for you. You can talk about what inspiration you want her to follow, what way to work with colors, and whether you want more psychedelic and digital work or art to hang on the wall. You are in charge!',
+                    // },
                     {
                         question: 'DO I NEED $ALGOP (the Token) TO USE THE PLATFORM?',
                         answer: 'No, you can use the platform without buying any $ALGOP token. However, you will not be eligible to participate in the BidBack System and the PIRS without our utility token.',
                     },
-                    {
-                        question: 'HOW CAN I BUY THE $ALGOP TOKEN?',
-                        answer: 'No, you can use the platform without buying any $ALGOP token. However, you will not be eligible to participate in the BidBack System and the PIRS without our utility token.',
-                    },
+                    // {
+                    //     question: 'HOW CAN I BUY THE $ALGOP TOKEN?',
+                    //     answer: 'No, you can use the platform without buying any $ALGOP token. However, you will not be eligible to participate in the BidBack System and the PIRS without our utility token.',
+                    // },
                 ],                
             }
         }
